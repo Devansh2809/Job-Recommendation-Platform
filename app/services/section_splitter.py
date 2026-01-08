@@ -1,12 +1,6 @@
 from .heading_detector import is_heading
 
 def split_into_sections(text: str) -> dict:
-    """
-    Split resume text into sections based on detected headings.
-    Returns dict of {heading_text: content}.
-    
-    Improved to handle multi-line section content properly.
-    """
     sections = {}
     current_heading = "header"  # Pre-heading content (name, contact, etc.)
     current_content = []

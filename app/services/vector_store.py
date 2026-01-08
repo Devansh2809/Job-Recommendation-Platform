@@ -1,7 +1,3 @@
-"""
-Vector store using FAISS for efficient similarity search.
-Stores and retrieves job embeddings.
-"""
 import faiss
 import numpy as np
 import json
@@ -14,25 +10,12 @@ class VectorStore:
     """FAISS-based vector store for job embeddings"""
     
     def __init__(self, dimension: int = 384):
-        """
-        Initialize vector store.
-        
-        Args:
-            dimension: Embedding dimension (384 for all-MiniLM-L6-v2)
-        """
         self.dimension = dimension
         self.index = None
         self.job_metadata = []  # List of job dicts
         self.job_id_to_idx = {}  # Map job_id -> index position
     
     def create_index(self, embeddings: np.ndarray, metadata: List[Dict]):
-        """
-        Create FAISS index from embeddings.
-        
-        Args:
-            embeddings: 2D array of shape (n_jobs, dimension)
-            metadata: List of job metadata dicts
-        """
         if len(embeddings) != len(metadata):
             raise ValueError("Embeddings and metadata must have same length")
         
@@ -52,7 +35,7 @@ class VectorStore:
         for idx, job in enumerate(metadata):
             self.job_id_to_idx[job['id']] = idx
         
-        print(f"✅ Index created with {self.index.ntotal} jobs")
+        print(f" Index created with {self.index.ntotal} jobs")
     
     def search(
         self, 
@@ -60,17 +43,6 @@ class VectorStore:
         k: int = 10,
         filters: Optional[Dict] = None
     ) -> List[Tuple[Dict, float]]:
-        """
-        Search for similar jobs.
-        
-        Args:
-            query_embedding: Query vector (1D array)
-            k: Number of results to return
-            filters: Optional filters (e.g., {"location": "Remote", "is_remote": True})
-        
-        Returns:
-            List of (job_metadata, similarity_score) tuples
-        """
         if self.index is None:
             raise ValueError("Index not created. Call create_index first.")
         
@@ -112,13 +84,6 @@ class VectorStore:
         return True
     
     def save(self, index_path: Optional[Path] = None, metadata_path: Optional[Path] = None):
-        """
-        Save index and metadata to disk.
-        
-        Args:
-            index_path: Path to save FAISS index
-            metadata_path: Path to save metadata JSON
-        """
         if self.index is None:
             raise ValueError("No index to save")
         
@@ -136,16 +101,13 @@ class VectorStore:
         with open(metadata_path, 'w', encoding='utf-8') as f:
             json.dump(self.job_metadata, f, indent=2, ensure_ascii=False)
         
-        print(f"✅ Saved index to {index_path}")
-        print(f"✅ Saved metadata to {metadata_path}")
+        print(f" Saved index to {index_path}")
+        print(f"Saved metadata to {metadata_path}")
     
     def load(self, index_path: Optional[Path] = None, metadata_path: Optional[Path] = None):
         """
         Load index and metadata from disk.
         
-        Args:
-            index_path: Path to FAISS index file
-            metadata_path: Path to metadata JSON file
         """
         index_path = index_path or Path(settings.VECTOR_INDEX_PATH + ".index")
         metadata_path = metadata_path or Path(settings.VECTOR_INDEX_PATH + "_metadata.json")
@@ -167,8 +129,8 @@ class VectorStore:
             job['id']: idx for idx, job in enumerate(self.job_metadata)
         }
         
-        print(f"✅ Loaded index with {self.index.ntotal} jobs")
-        print(f"✅ Loaded {len(self.job_metadata)} job metadata")
+        print(f"Loaded index with {self.index.ntotal} jobs")
+        print(f" Loaded {len(self.job_metadata)} job metadata")
     
     def get_stats(self) -> Dict:
         """Get index statistics"""

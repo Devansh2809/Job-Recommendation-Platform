@@ -34,13 +34,6 @@ class JobService:
     ) -> List[Dict]:
         """
         Get jobs for a parsed resume - uses cache or fetches new jobs.
-        
-        Args:
-            parsed_resume: Parsed resume dictionary from resume_parser
-            top_k: Number of top matches to return
-        
-        Returns:
-            List of job dictionaries with match scores
         """
         # Extract search criteria from resume
         skills = parsed_resume.get('skills', [])[:10]  # Top 10 skills
@@ -83,11 +76,11 @@ class JobService:
                 return ranked_jobs
         
         # Cache miss - fetch new jobs from API
-        print(f"🔄 No cached jobs found, fetching from API...")
+        print(f"No cached jobs found, fetching from API...")
         jobs = await self._fetch_jobs_from_api(skills, experience_level)
         
         if not jobs:
-            print("⚠️ No jobs found from API")
+            print(" No jobs found from API")
             return []
         
         # Store in cache
@@ -144,9 +137,6 @@ class JobService:
     ) -> List[Dict]:
         """
         Rank jobs against resume using embeddings.
-        
-        Returns:
-            Top K jobs with match_score added
         """
         if not jobs:
             return []

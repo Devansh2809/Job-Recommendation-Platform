@@ -1,14 +1,8 @@
-"""
-Specialized extractors for different section types.
-"""
 import re
 from typing import List, Dict
 
 
 def extract_skills_from_section(content: str, skill_dict: set) -> List[str]:
-    """
-    Extract skills from a skills section using fuzzy matching.
-    """
     content_lower = content.lower()
     found = []
     
@@ -21,14 +15,6 @@ def extract_skills_from_section(content: str, skill_dict: set) -> List[str]:
 
 
 def extract_projects_from_section(content: str) -> List[Dict[str, str]]:
-    """
-    Extract structured project information.
-    
-    Improved logic:
-    - Project title: Non-bulleted line, starts with capital, moderate length
-    - Tech stack: Comma-separated line right after title OR explicit "Tech Stack:" line
-    - Bullets: Everything starting with • or - goes into description
-    """
     projects = []
     lines = content.split("\n")
     
@@ -52,14 +38,11 @@ def extract_projects_from_section(content: str) -> List[Dict[str, str]]:
         if stripped in ['§', '(cid:239)']:
             continue
         
-        # Check if it's a bullet point
         is_bullet = stripped.startswith(('•', '◦', '-', '*'))
         
         # Check if it's an explicit tech stack line
         is_tech_stack_explicit = stripped.startswith(('Tech Stack:', 'Technologies:', 'Stack:', 'Built with:'))
         
-        # Check if it looks like a tech stack (comma-separated tools/languages)
-        # Must have commas AND be relatively short AND not a bullet
         is_tech_stack_implicit = (
             not is_bullet and
             ',' in stripped and
@@ -67,14 +50,6 @@ def extract_projects_from_section(content: str) -> List[Dict[str, str]]:
             len(stripped.split(',')) >= 2 and
             not stripped.endswith('.')  # Tech stacks don't end with periods
         )
-        
-        # Check if this looks like a project title
-        # Rules:
-        # 1. NOT a bullet point
-        # 2. NOT a tech stack
-        # 3. Starts with capital letter
-        # 4. Moderate length (2-15 words)
-        # 5. Doesn't end with period (titles don't)
         looks_like_title = (
             not is_bullet and
             not is_tech_stack_explicit and
@@ -142,10 +117,6 @@ def extract_projects_from_section(content: str) -> List[Dict[str, str]]:
 
 
 def extract_education_from_section(content: str) -> List[Dict[str, str]]:
-    """
-    Extract education entries with better parsing.
-    Handles institution, degree, and additional details.
-    """
     education = []
     lines = content.split("\n")
     
@@ -167,9 +138,7 @@ def extract_education_from_section(content: str) -> List[Dict[str, str]]:
             "expected" in stripped.lower() or
             re.match(r'^\d{4}$', stripped)  # Just a year
         )
-        
-        # Check if it looks like an institution name
-        # Institution: Title Case, contains words like "Institute", "University", "School", "College"
+       
         institution_keywords = ["institute", "university", "school", "college", "academy"]
         looks_like_institution = (
             any(keyword in stripped.lower() for keyword in institution_keywords) or
@@ -210,10 +179,7 @@ def extract_education_from_section(content: str) -> List[Dict[str, str]]:
 
 
 def extract_coursework(content: str) -> List[str]:
-    """
-    Extract individual courses from coursework section.
-    Handles both bullet points, multi-column layouts, and comma-separated lists.
-    """
+    
     courses = []
     
     # Check if content has "Relevant Coursework:" prefix

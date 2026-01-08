@@ -49,14 +49,6 @@ def extract_contact_info(text: str) -> dict:
 def detect_experience_level(text: str, education: List[dict]) -> dict:
     """
     Detect candidate's experience level and career stage.
-    
-    Returns:
-        {
-            "level": "student" | "entry" | "mid" | "senior" | "lead",
-            "years_experience": int (estimated),
-            "is_student": bool,
-            "seeking_internship": bool
-        }
     """
     text_lower = text.lower()
     
@@ -129,19 +121,10 @@ def detect_experience_level(text: str, education: List[dict]) -> dict:
     }
 
 def parse_resume(text: str) -> dict:
-    """
-    Main resume parsing function with NER-based skill extraction.
-    
-    Pipeline:
-    1. Extract contact info
-    2. Split text into sections (adaptive heading detection)
-    3. Extract skills using hybrid NER approach (from entire document)
-    4. Classify and extract from each section
-    """
-    # Step 1: Extract contact info from full text
+    # Extract contact info from full text
     contact = extract_contact_info(text)
     
-    # Step 2: Split into sections
+    # Split into sections
     sections = split_into_sections(text)
     
     # Initialize result
@@ -156,12 +139,11 @@ def parse_resume(text: str) -> dict:
         "raw_text": text
     }
     
-    # Step 3: Extract skills from entire document using dynamic extraction
-    # (Better to analyze whole text for context rather than just skills section)
+    # Extract skills from entire document using dynamic extraction
     parsed["skills"] = extract_skills_dynamic(text)
     parsed["skills_with_context"] = extract_skills_with_context_dynamic(text)
     
-    # Step 4: Classify and extract from each section
+    # Classify and extract from each section
     for header, content in sections.items():
         section_type = classify_section(header, content)
         

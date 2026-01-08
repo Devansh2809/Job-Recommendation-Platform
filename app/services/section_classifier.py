@@ -1,7 +1,3 @@
-"""
-Semantic classification of resume sections.
-Maps arbitrary heading names to standard types.
-"""
 
 SECTION_KEYWORDS = {
     "skills": [

@@ -1,7 +1,5 @@
 """
 Domain-agnostic skill extraction using NLP and linguistic patterns.
-Works for any profession: tech, healthcare, finance, trades, marketing, etc.
-No predefined skill lists - detects skills based on linguistic context and structure.
 """
 import spacy
 from spacy.matcher import Matcher
@@ -223,7 +221,6 @@ def extract_skills_from_action_contexts(text: str) -> Set[str]:
 def extract_named_entities(text: str) -> Set[str]:
     """
     Extract named entities that represent skills/tools.
-    Conservative - only from PRODUCT entities.
     """
     doc = nlp(text)
     skills = set()
@@ -284,12 +281,8 @@ def extract_technical_acronyms(text: str) -> Set[str]:
 def extract_camelcase_and_special_terms(text: str) -> Set[str]:
     """
     Extract CamelCase terms and special naming patterns.
-    Examples: NumPy, PySpark, TensorFlow, AutoCAD, GitHub
     """
     skills = set()
-    
-    # Find CamelCase or mixed-case terms (including consecutive capitals like GitHub)
-    # Pattern: Starts with capital, has at least one lowercase, then has another capital
     camelcase = re.findall(r'\b[A-Z][a-z]*[A-Z][A-Za-z]*\b', text)
     
     for term in camelcase:
@@ -385,8 +378,6 @@ def extract_skills_dynamic(text: str) -> List[str]:
     """
     Main function for domain-agnostic skill extraction.
     Balanced approach - extracts skills without being too restrictive.
-    
-    Returns: Sorted list of unique skills
     """
     all_skills = set()
     
