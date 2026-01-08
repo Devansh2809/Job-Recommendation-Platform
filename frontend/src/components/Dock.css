@@ -1,0 +1,37 @@
+.dock-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.dock {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  padding: 8px;
+  display: flex;
+  gap: 8px;
+}
+
+.dock-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  color: #000;
+  transition: background 0.2s;
+}
+
+.dock-icon:hover {
+  background: rgba(255, 255, 255, 1);
+}
+
+.dock-icon svg {
+  width: 20px;
+  height: 20px;
+}

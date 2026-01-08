@@ -1,0 +1,598 @@
+[
+  {
+    "id": "HrqcbVkz8dlP04E_AAAAAA==",
+    "title": "Software Engineer, Gov",
+    "company": "OpenAI",
+    "location": "Washington, District of Columbia, US",
+    "description": "About the Team\n\nJoin the engineering teams that bring OpenAI’s ideas safely to the world!\n\nThe Applied Engineering team works across research, engineering, product, and design to bring OpenAI’s technology to consumers and businesses. We seek to learn from deployment and distribute the benefits of AI, while ensuring that this powerful tool is used responsibly and safely. Safety is more important to us than unfettered growth.\n\nAbout the Role\n\nWe’re seeking Software Engineers who can solve complex, high-impact problems across our stack. In this role, you’ll join a nimble team driving the deployment of OpenAI’s technology into new environments and infrastructure that power critical missions in the public sector.\n\nYou’ll work cross-functionally with product, security, and compliance teams to build the functionality needed to deliver a scalable, reliable platform. You’ll also partner directly with customers to design and build new products and features that create real-world impact.\n\nFrom launching net-new capabilities to optimizing how we serve inference in unique, high-stakes environments, this role offers both breadth and technical depth—giving you the opportunity to shape the future of OpenAI’s technology where it matters most.\n\nThis role is based in Washington D.C., San Francisco, CA or Seattle, WA. Occasional travel to customer sites is required for this role.\n\nIn this role, you will:\nOwn the development of new customer-facing ChatGPT and OpenAI API features end-to-end, both on-premises and in the cloud, for our public sector customers.\n\nPartner and directly embed with teams across the business, including engineering, security, and compliance, to enable our products to work within the unique constraints of new environments.\n\nTalk to users to understand their problems and design solutions to address them\n\nWork with the research team to get relevant feedback and iterate on their latest models, developing solutions specific for public sector customers at both the model & data layers.\n\nCollaborate with a cross-functional team of engineers, researchers, product managers, designers, and operations folks to create cutting-edge products\n\nOptimize applications for speed and scale\n\nYou might thrive in this role if you:\nUS Citizen\n\n5+ years of relevant engineering experience at tech and product-driven companies\n\nProficiency with JavaScript, React, and other web technologies\n\nProficiency with some backend language (we use Python)\n\nSome experience with underlying infrastructure primitives like Kubernetes and Terraform\n\nInterest in AI/ML (direct experience not required)\n\nAbility to move fast in an environment where things are sometimes loosely defined and may have competing priorities or deadlines\n\nAn interest in enabling public sector use cases with unique requirements\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.\n\nFor additional information, please see\n\nOpenAI’s Affirmative Action and Equal Employment Opportunity Policy Statement\n\n.\n\nBackground checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through\n\nthis form\n\n. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities.\n\nOpenAI Global Applicant Privacy Policy\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.\n\nCompensation\n\n$255K – $405K + Offers Equity",
+    "requirements": "US Citizen\n5+ years of relevant engineering experience at tech and product-driven companies\nProficiency with JavaScript, React, and other web technologies\nProficiency with some backend language (we use Python)\nSome experience with underlying infrastructure primitives like Kubernetes and Terraform\nInterest in AI/ML (direct experience not required)\nAbility to move fast in an environment where things are sometimes loosely defined and may have competing priorities or deadlines\nAn interest in enabling public sector use cases with unique requirements\nFor unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information",
+    "employment_type": "Full-time",
+    "url": "https://www.indeed.com/viewjob?jk=99c8829f1b8bb504&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+    "posted_date": null,
+    "min_salary": 255000,
+    "max_salary": 405000,
+    "is_remote": false,
+    "raw": {
+      "job_id": "HrqcbVkz8dlP04E_AAAAAA==",
+      "job_title": "Software Engineer, Gov",
+      "employer_name": "OpenAI",
+      "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUpHe-7V3VcST9_P2wjgNw6CtHZWJxTDPfwE5t&s=0",
+      "employer_website": "https://openai.com",
+      "job_publisher": "Indeed",
+      "job_employment_type": "Full-time",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://www.indeed.com/viewjob?jk=99c8829f1b8bb504&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "Indeed",
+          "apply_link": "https://www.indeed.com/viewjob?jk=99c8829f1b8bb504&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "ZipRecruiter",
+          "apply_link": "https://www.ziprecruiter.com/c/Anduril-Industries/Job/Mission-Software-Engineer,-Air-Vehicle-Autonomy,-Frontend-with-Security-Clearance/-in-Washington,DC?jid=eca69dff69ea05de&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "LinkedIn",
+          "apply_link": "https://www.linkedin.com/jobs/view/software-engineer-discovery-at-anduril-industries-4334337659?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Glassdoor",
+          "apply_link": "https://www.glassdoor.com/job-listing/software-engineer-gov-openai-JV_IC1138213_KO0,21_KE22,28.htm?jl=1009908622903&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Dice",
+          "apply_link": "https://www.dice.com/job-detail/972fb631-79cb-4696-8079-585d26bdd245?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Built In",
+          "apply_link": "https://builtin.com/job/air-dominance-strike-mission-autonomy-software-engineer-frontend/7201299?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobright",
+          "apply_link": "https://jobright.ai/jobs/info/690b6e514a1b456627b0f6ec?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "SimplyHired",
+          "apply_link": "https://www.simplyhired.com/job/v8vpenahX7o9eNBW0bTRuM0hreM4zOSTlHXedrRxL_mh2YLqwQedQA?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "About the Team\n\nJoin the engineering teams that bring OpenAI’s ideas safely to the world!\n\nThe Applied Engineering team works across research, engineering, product, and design to bring OpenAI’s technology to consumers and businesses. We seek to learn from deployment and distribute the benefits of AI, while ensuring that this powerful tool is used responsibly and safely. Safety is more important to us than unfettered growth.\n\nAbout the Role\n\nWe’re seeking Software Engineers who can solve complex, high-impact problems across our stack. In this role, you’ll join a nimble team driving the deployment of OpenAI’s technology into new environments and infrastructure that power critical missions in the public sector.\n\nYou’ll work cross-functionally with product, security, and compliance teams to build the functionality needed to deliver a scalable, reliable platform. You’ll also partner directly with customers to design and build new products and features that create real-world impact.\n\nFrom launching net-new capabilities to optimizing how we serve inference in unique, high-stakes environments, this role offers both breadth and technical depth—giving you the opportunity to shape the future of OpenAI’s technology where it matters most.\n\nThis role is based in Washington D.C., San Francisco, CA or Seattle, WA. Occasional travel to customer sites is required for this role.\n\nIn this role, you will:\nOwn the development of new customer-facing ChatGPT and OpenAI API features end-to-end, both on-premises and in the cloud, for our public sector customers.\n\nPartner and directly embed with teams across the business, including engineering, security, and compliance, to enable our products to work within the unique constraints of new environments.\n\nTalk to users to understand their problems and design solutions to address them\n\nWork with the research team to get relevant feedback and iterate on their latest models, developing solutions specific for public sector customers at both the model & data layers.\n\nCollaborate with a cross-functional team of engineers, researchers, product managers, designers, and operations folks to create cutting-edge products\n\nOptimize applications for speed and scale\n\nYou might thrive in this role if you:\nUS Citizen\n\n5+ years of relevant engineering experience at tech and product-driven companies\n\nProficiency with JavaScript, React, and other web technologies\n\nProficiency with some backend language (we use Python)\n\nSome experience with underlying infrastructure primitives like Kubernetes and Terraform\n\nInterest in AI/ML (direct experience not required)\n\nAbility to move fast in an environment where things are sometimes loosely defined and may have competing priorities or deadlines\n\nAn interest in enabling public sector use cases with unique requirements\n\nAbout OpenAI\n\nOpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity. We push the boundaries of the capabilities of AI systems and seek to safely deploy them to the world through our products. AI is an extremely powerful tool that must be created with safety and human needs at its core, and to achieve our mission, we must encompass and value the many different perspectives, voices, and experiences that form the full spectrum of humanity.\n\nWe are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.\n\nFor additional information, please see\n\nOpenAI’s Affirmative Action and Equal Employment Opportunity Policy Statement\n\n.\n\nBackground checks for applicants will be administered in accordance with applicable law, and qualified applicants with arrest or conviction records will be considered for employment consistent with those laws, including the San Francisco Fair Chance Ordinance, the Los Angeles County Fair Chance Ordinance for Employers, and the California Fair Chance Act, for US-based candidates. For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information. In addition, job duties require access to secure and protected information technology systems and related data security obligations.\n\nTo notify OpenAI that you believe this job posting is non-compliant, please submit a report through\n\nthis form\n\n. No response will be provided to inquiries unrelated to job posting compliance.\n\nWe are committed to providing reasonable accommodations to applicants with disabilities.\n\nOpenAI Global Applicant Privacy Policy\n\nAt OpenAI, we believe artificial intelligence has the potential to help people solve immense global challenges, and we want the upside of AI to be widely shared. Join us in shaping the future of technology.\n\nCompensation\n\n$255K – $405K + Offers Equity",
+      "job_is_remote": false,
+      "job_posted_at": null,
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Washington, DC",
+      "job_city": "Washington",
+      "job_state": "District of Columbia",
+      "job_country": "US",
+      "job_latitude": 38.9071923,
+      "job_longitude": -77.0368707,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DHrqcbVkz8dlP04E_AAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_min_salary": 255000,
+      "job_max_salary": 405000,
+      "job_salary_period": "YEAR",
+      "job_highlights": {
+        "Qualifications": [
+          "US Citizen",
+          "5+ years of relevant engineering experience at tech and product-driven companies",
+          "Proficiency with JavaScript, React, and other web technologies",
+          "Proficiency with some backend language (we use Python)",
+          "Some experience with underlying infrastructure primitives like Kubernetes and Terraform",
+          "Interest in AI/ML (direct experience not required)",
+          "Ability to move fast in an environment where things are sometimes loosely defined and may have competing priorities or deadlines",
+          "An interest in enabling public sector use cases with unique requirements",
+          "For unincorporated Los Angeles County workers: we reasonably believe that criminal history may have a direct, adverse and negative relationship with the following job duties, potentially resulting in the withdrawal of a conditional offer of employment: protect computer hardware entrusted to you from theft, loss or damage; return all computer hardware in your possession (including the data contained therein) upon termination of employment or end of assignment; and maintain the confidentiality of proprietary, confidential, and non-public information"
+        ],
+        "Benefits": [
+          "$255K – $405K + Offers Equity"
+        ],
+        "Responsibilities": [
+          "In this role, you’ll join a nimble team driving the deployment of OpenAI’s technology into new environments and infrastructure that power critical missions in the public sector",
+          "You’ll work cross-functionally with product, security, and compliance teams to build the functionality needed to deliver a scalable, reliable platform",
+          "You’ll also partner directly with customers to design and build new products and features that create real-world impact",
+          "Occasional travel to customer sites is required for this role",
+          "Own the development of new customer-facing ChatGPT and OpenAI API features end-to-end, both on-premises and in the cloud, for our public sector customers",
+          "Partner and directly embed with teams across the business, including engineering, security, and compliance, to enable our products to work within the unique constraints of new environments",
+          "Talk to users to understand their problems and design solutions to address them",
+          "Work with the research team to get relevant feedback and iterate on their latest models, developing solutions specific for public sector customers at both the model & data layers",
+          "Collaborate with a cross-functional team of engineers, researchers, product managers, designers, and operations folks to create cutting-edge products",
+          "Optimize applications for speed and scale"
+        ]
+      },
+      "job_onet_soc": "15113200",
+      "job_onet_job_zone": "4"
+    }
+  },
+  {
+    "id": "fvdYdGqDUGDXeRjIAAAAAA==",
+    "title": "Forward Deployed Software Engineer",
+    "company": "Govini",
+    "location": "Arlington, Virginia, US",
+    "description": "Company Description\n\nGovini transforms Defense Acquisition from an outdated manual process to a software-driven strategic advantage for the United States. Our flagship product, Ark, supports Supply Chain, Science and Technology, Production, Sustainment, Logistics, and Modernization teams with AI-enabled Applications and best-in-class data to more rapidly imagine, develop, and field the capabilities we need. Today, the national security community and every branch of the military rely on Govini to enable faster and more informed Acquisition decisions.\n\nJob Description\n\nWe are seeking self-starting, customer-value-oriented software engineers to join our Forward Deployed Engineering team. As a Forward Deployed Software Engineer at Govini, you are accountable for building new and differentiated 0-to-1 capabilities, in the field with our customers, end to end. You are motivated by moving quickly but responsibly against urgent and compelling opportunities to deliver valuable software-driven outcomes to our customers. The idea of building something new energizes you and want to work on problems that matter, and you want to own. You understand and appreciate the value of face-to-face interactions with end users, and constantly seek to push the boundaries of what is possible.\n\nIn order to do this job well, you must be a curious and eager problem solver. You must possess exceptional judgment when it comes to balancing competing priorities and making tradeoffs. You must be flexible, you must value outcomes over process, you must thrive in ambiguous environments, and above all else focus on solving valuable problems for our customers.\n\nIn a typical week, the individual who fills this position could expect to:\n• Spend the day onsite with users, listening to problems and asking questions seeking to understand pain points\n• Collaborate with product managers and designers to scope, architect, and deliver 0-to-1 product initiatives and prototypes.\n• Build and deliver working, customer-facing prototypes.\n• Assess, prioritize, and correct the most important gaps in prototype solutions under development based on user feedback and in partnership with product managers\n• Fail often, iterate quickly, and try again\n\nThis role is a full-time position located out of our office in Arlington, VA.\n\nThis role may require up to 75% travel.\n\nScope of Responsibilities\n• Conduct customer site visits to diagnose and understand pain points\n• Participate in the end-to-end software development of new feature functionality and design capabilities\n• Iterate quickly to progressively unlock customer value\n• Craft clean, testable, and maintainable code\n\nQualifications\n• U.S. Citizenship is required\n\nRequired Skills\n• Bachelor's degree in Computer Science, Software Engineering, or related field, or equivalent work experience\n• 1+ years of front-end or back-end software development experience (SQL, Java and/or Typescript/React)\n• Ability to work independently with little supervision\n• A burning desire to work in a challenging, fast-paced tech environment\n\nDesired Skills\n• Current possession of a U.S. security clearance or the ability to obtain one with our sponsorship\n• Experience in or exposure to the nuances of a startup or other entrepreneurial environment\n• Experience working within the boundaries of a federally accredited software environment\n• Experience in or exposure to the nuances of a startup or other entrepreneurial environment\n• Experience working in a customer-facing or consulting role\n\nWe firmly believe that past performance is the best indicator of future performance. If you thrive while building solutions to complex problems, are a self-starter, and are passionate about making an impact in global security, we’re eager to hear from you.\n\nGovini is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, sexual orientation, gender identity, disability and protected veterans status or any other characteristic protected by law.",
+    "requirements": "The idea of building something new energizes you and want to work on problems that matter, and you want to own\nYou understand and appreciate the value of face-to-face interactions with end users, and constantly seek to push the boundaries of what is possible\nIn order to do this job well, you must be a curious and eager problem solver\nYou must possess exceptional judgment when it comes to balancing competing priorities and making tradeoffs\nYou must be flexible, you must value outcomes over process, you must thrive in ambiguous environments, and above all else focus on solving valuable problems for our customers\nU.S. Citizenship is required\nBachelor's degree in Computer Science, Software Engineering, or related field, or equivalent work experience\n1+ years of front-end or back-end software development experience (SQL, Java and/or Typescript/React)\nAbility to work independently with little supervision\nA burning desire to work in a challenging, fast-paced tech environment",
+    "employment_type": "Full-time",
+    "url": "https://www.linkedin.com/jobs/view/forward-deployed-software-engineer-at-govini-4346650197?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+    "posted_date": "2025-12-29T00:00:00.000Z",
+    "min_salary": null,
+    "max_salary": null,
+    "is_remote": false,
+    "raw": {
+      "job_id": "fvdYdGqDUGDXeRjIAAAAAA==",
+      "job_title": "Forward Deployed Software Engineer",
+      "employer_name": "Govini",
+      "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx8u-xsSna4U_8lmsspgKYD9q_aH6Mu3tlwcZj&s=0",
+      "employer_website": "https://www.govini.com",
+      "job_publisher": "LinkedIn",
+      "job_employment_type": "Full-time",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://www.linkedin.com/jobs/view/forward-deployed-software-engineer-at-govini-4346650197?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "LinkedIn",
+          "apply_link": "https://www.linkedin.com/jobs/view/forward-deployed-software-engineer-at-govini-4346650197?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Purpose Jobs",
+          "apply_link": "https://www.purpose.jobs/discover/companies/govini-2/jobs/63794829-forward-deployed-software-engineer?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Accel Job Board",
+          "apply_link": "https://jobs.accel.com/companies/govini-2/jobs/63794829-forward-deployed-software-engineer?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobilize",
+          "apply_link": "https://www.jobilize.com/job/us-va-arlington-senior-forward-deployed-software-engineer-logistics?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobs Trabajo.org",
+          "apply_link": "https://us.trabajo.org/job-3631-fb789168021c8052a4943f3f3fd33182?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "Company Description\n\nGovini transforms Defense Acquisition from an outdated manual process to a software-driven strategic advantage for the United States. Our flagship product, Ark, supports Supply Chain, Science and Technology, Production, Sustainment, Logistics, and Modernization teams with AI-enabled Applications and best-in-class data to more rapidly imagine, develop, and field the capabilities we need. Today, the national security community and every branch of the military rely on Govini to enable faster and more informed Acquisition decisions.\n\nJob Description\n\nWe are seeking self-starting, customer-value-oriented software engineers to join our Forward Deployed Engineering team. As a Forward Deployed Software Engineer at Govini, you are accountable for building new and differentiated 0-to-1 capabilities, in the field with our customers, end to end. You are motivated by moving quickly but responsibly against urgent and compelling opportunities to deliver valuable software-driven outcomes to our customers. The idea of building something new energizes you and want to work on problems that matter, and you want to own. You understand and appreciate the value of face-to-face interactions with end users, and constantly seek to push the boundaries of what is possible.\n\nIn order to do this job well, you must be a curious and eager problem solver. You must possess exceptional judgment when it comes to balancing competing priorities and making tradeoffs. You must be flexible, you must value outcomes over process, you must thrive in ambiguous environments, and above all else focus on solving valuable problems for our customers.\n\nIn a typical week, the individual who fills this position could expect to:\n• Spend the day onsite with users, listening to problems and asking questions seeking to understand pain points\n• Collaborate with product managers and designers to scope, architect, and deliver 0-to-1 product initiatives and prototypes.\n• Build and deliver working, customer-facing prototypes.\n• Assess, prioritize, and correct the most important gaps in prototype solutions under development based on user feedback and in partnership with product managers\n• Fail often, iterate quickly, and try again\n\nThis role is a full-time position located out of our office in Arlington, VA.\n\nThis role may require up to 75% travel.\n\nScope of Responsibilities\n• Conduct customer site visits to diagnose and understand pain points\n• Participate in the end-to-end software development of new feature functionality and design capabilities\n• Iterate quickly to progressively unlock customer value\n• Craft clean, testable, and maintainable code\n\nQualifications\n• U.S. Citizenship is required\n\nRequired Skills\n• Bachelor's degree in Computer Science, Software Engineering, or related field, or equivalent work experience\n• 1+ years of front-end or back-end software development experience (SQL, Java and/or Typescript/React)\n• Ability to work independently with little supervision\n• A burning desire to work in a challenging, fast-paced tech environment\n\nDesired Skills\n• Current possession of a U.S. security clearance or the ability to obtain one with our sponsorship\n• Experience in or exposure to the nuances of a startup or other entrepreneurial environment\n• Experience working within the boundaries of a federally accredited software environment\n• Experience in or exposure to the nuances of a startup or other entrepreneurial environment\n• Experience working in a customer-facing or consulting role\n\nWe firmly believe that past performance is the best indicator of future performance. If you thrive while building solutions to complex problems, are a self-starter, and are passionate about making an impact in global security, we’re eager to hear from you.\n\nGovini is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, sexual orientation, gender identity, disability and protected veterans status or any other characteristic protected by law.",
+      "job_is_remote": false,
+      "job_posted_at": "3 days ago",
+      "job_posted_at_timestamp": 1766966400,
+      "job_posted_at_datetime_utc": "2025-12-29T00:00:00.000Z",
+      "job_location": "Arlington, VA",
+      "job_city": "Arlington",
+      "job_state": "Virginia",
+      "job_country": "US",
+      "job_latitude": 38.8816208,
+      "job_longitude": -77.09098089999999,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DfvdYdGqDUGDXeRjIAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {
+        "Qualifications": [
+          "The idea of building something new energizes you and want to work on problems that matter, and you want to own",
+          "You understand and appreciate the value of face-to-face interactions with end users, and constantly seek to push the boundaries of what is possible",
+          "In order to do this job well, you must be a curious and eager problem solver",
+          "You must possess exceptional judgment when it comes to balancing competing priorities and making tradeoffs",
+          "You must be flexible, you must value outcomes over process, you must thrive in ambiguous environments, and above all else focus on solving valuable problems for our customers",
+          "U.S. Citizenship is required",
+          "Bachelor's degree in Computer Science, Software Engineering, or related field, or equivalent work experience",
+          "1+ years of front-end or back-end software development experience (SQL, Java and/or Typescript/React)",
+          "Ability to work independently with little supervision",
+          "A burning desire to work in a challenging, fast-paced tech environment"
+        ],
+        "Responsibilities": [
+          "As a Forward Deployed Software Engineer at Govini, you are accountable for building new and differentiated 0-to-1 capabilities, in the field with our customers, end to end",
+          "You are motivated by moving quickly but responsibly against urgent and compelling opportunities to deliver valuable software-driven outcomes to our customers",
+          "In a typical week, the individual who fills this position could expect to:",
+          "Spend the day onsite with users, listening to problems and asking questions seeking to understand pain points",
+          "Collaborate with product managers and designers to scope, architect, and deliver 0-to-1 product initiatives and prototypes",
+          "Build and deliver working, customer-facing prototypes",
+          "Assess, prioritize, and correct the most important gaps in prototype solutions under development based on user feedback and in partnership with product managers",
+          "Fail often, iterate quickly, and try again",
+          "This role is a full-time position located out of our office in Arlington, VA",
+          "This role may require up to 75% travel",
+          "Conduct customer site visits to diagnose and understand pain points",
+          "Participate in the end-to-end software development of new feature functionality and design capabilities",
+          "Iterate quickly to progressively unlock customer value",
+          "Craft clean, testable, and maintainable code"
+        ]
+      },
+      "job_onet_soc": "15113200",
+      "job_onet_job_zone": "4"
+    }
+  },
+  {
+    "id": "iDKvQbAtMH_Wg1BpAAAAAA==",
+    "title": "Software Engineer",
+    "company": "Leidos",
+    "location": "Arlington, Virginia, US",
+    "description": "Description\n\nWe are seeking an experienced Lead Software Engineer to join our team in developing unmanned and autonomous ships for the US Government. The candidate will help design, code, and test software as part of a Scrum team in Arlington, VA, and will assist in coaching and mentoring junior and mid-level developers. Joining other senior developers, the candidate will help to guide projects of significant national importance. Our team of over thirty developers supports a variety of projects, making existing ships operate autonomously as well as working to support new ships through development within design, build, and test phases. Our software handles ship automation, autonomous navigation, sensor processing, and communications. The team also develops simulations to be used for verification and software testing.\n\nPrimary Responsibilities\n• Design, develop, and debug mission critical software source code.\n• Participate in the full software development lifecycle\n• Serve as technical lead for small projects and mentor other engineers.\n• Perform peer reviews of software\n• Collaborate with the continuous process improvement to help the team improve\n• Assist with evaluating field tests\n• Communicate with client project team members.\n• Some travel (up to 25%)\n\nBasic Qualifications\n• A Bachelor’s degree in computer science or STEM field plus 4+ years of software development, or 2+ with a masters degree, and at least 2+ using Linux and C++\n• Significant experience working in a team environment, including experience providing guidance and coaching to other developers\n• Experience designing complex systems, taking into account performance and user requirements\n• Exposure to one or more of the following: high availability, sensor fusion, target tracking, path planning, communications systems, or military systems integration\n• Ability to obtain and maintain a Secret Security Clearance\n\nPreferred Qualifications\n• Familiarity with the Atlassian tool suite\n• Familiarity with automated build processes (Bamboo, Jenkins, etc.)\n• Familiarity with game theory, artificial intelligence, petri nets, safety critical software\n• Demonstrable problem-solving skills\n• Active Secret Security Clearance preferred\n\nIf you're looking for comfort, keep scrolling. At Leidos, we outthink, outbuild, and outpace the status quo — because the mission demands it. We're not hiring followers. We're recruiting the ones who disrupt, provoke, and refuse to fail. Step 10 is ancient history. We're already at step 30 — and moving faster than anyone else dares.\n\nOriginal Posting:\nJuly 9, 2025\n\nFor U.S. Positions: While subject to change based on business needs, Leidos reasonably anticipates that this job requisition will remain open for at least 3 days with an anticipated close date of no earlier than 3 days after the original posting date as listed above.\n\nPay Range:\nPay Range $87,100.00 - $157,450.00\n\nThe Leidos pay range for this job level is a general guideline only and not a guarantee of compensation or salary. Additional factors considered in extending an offer include (but are not limited to) responsibilities of the job, education, experience, knowledge, skills, and abilities, as well as internal equity, alignment with market data, applicable bargaining agreement (if any), or other law.\n\nAbout Leidos\n\nLeidos is an industry and technology leader serving government and commercial customers with smarter, more efficient digital and mission innovations. Headquartered in Reston, Virginia, with 47,000 global employees, Leidos reported annual revenues of approximately $16.7 billion for the fiscal year ended January 3, 2025. For more information, visit www.Leidos.com.\n\nPay and Benefits\n\nPay and benefits are fundamental to any career decision. That's why we craft compensation packages that reflect the importance of the work we do for our customers. Employment benefits include competitive compensation, Health and Wellness programs, Income Protection, Paid Leave and Retirement. More details are available at www.leidos.com/careers/pay-benefits.\n\nSecuring Your Data\n\nBeware of fake employment opportunities using Leidos’ name. Leidos will never ask you to provide payment-related information during any part of the employment application process (i.e., ask you for money), nor will Leidos ever advance money as part of the hiring process (i.e., send you a check or money order before doing any work). Further, Leidos will only communicate with you through emails that are generated by the Leidos.com automated system – never from free commercial services (e.g., Gmail, Yahoo, Hotmail) or via WhatsApp, Telegram, etc. If you received an email purporting to be from Leidos that asks for payment-related information or any other personal information (e.g., about you or your previous employer), and you are concerned about its legitimacy, please make us aware immediately by emailing us at LeidosCareersFraud@leidos.com.\n\nIf you believe you are the victim of a scam, contact your local law enforcement and report the incident to the U.S. Federal Trade Commission.\n\nCommitment to Non-Discrimination\n\nAll qualified applicants will receive consideration for employment without regard to sex, race, ethnicity, age, national origin, citizenship, religion, physical or mental disability, medical condition, genetic information, pregnancy, family structure, marital status, ancestry, domestic partner status, sexual orientation, gender identity or expression, veteran or military status, or any other basis prohibited by law. Leidos will also consider for employment qualified applicants with criminal histories consistent with relevant laws.",
+    "requirements": "A Bachelor’s degree in computer science or STEM field plus 4+ years of software development, or 2+ with a masters degree, and at least 2+ using Linux and C++\nSignificant experience working in a team environment, including experience providing guidance and coaching to other developers\nExperience designing complex systems, taking into account performance and user requirements\nExposure to one or more of the following: high availability, sensor fusion, target tracking, path planning, communications systems, or military systems integration\nAbility to obtain and maintain a Secret Security Clearance",
+    "employment_type": "Full-time",
+    "url": "https://careers.leidos.com/jobs/16399921-software-engineer?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+    "posted_date": "2025-12-09T00:00:00.000Z",
+    "min_salary": null,
+    "max_salary": null,
+    "is_remote": false,
+    "raw": {
+      "job_id": "iDKvQbAtMH_Wg1BpAAAAAA==",
+      "job_title": "Software Engineer",
+      "employer_name": "Leidos",
+      "employer_logo": null,
+      "employer_website": "https://www.leidos.com",
+      "job_publisher": "Leidos Careers",
+      "job_employment_type": "Full-time",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://careers.leidos.com/jobs/16399921-software-engineer?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "Leidos Careers",
+          "apply_link": "https://careers.leidos.com/jobs/16399921-software-engineer?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobvite",
+          "apply_link": "https://jobs.jobvite.com/idtus/job/osGcwfwA?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobot",
+          "apply_link": "https://jobot.com/details/software-engineer/e828c58d01?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "Smart Recruiters Jobs",
+          "apply_link": "https://jobs.smartrecruiters.com/CommandServicesSupportInc/743999983931993-software-engineer?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "CATSone",
+          "apply_link": "https://beyondsof.catsone.com/careers/95259-General/jobs/16105361-Software-Engineer/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "ZipRecruiter",
+          "apply_link": "https://www.ziprecruiter.com/c/Leidos/Job/Software-Engineer/-in-Arlington,VA?jid=30bd66a53a174b0d&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "Jobs By Workable",
+          "apply_link": "https://jobs.workable.com/view/2NFMUYMNRrCZimgUanYWMW/software-engineer-in-arlington-at-tek-spikes?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "Indeed",
+          "apply_link": "https://www.indeed.com/viewjob?jk=26464d9f4787d824&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "Description\n\nWe are seeking an experienced Lead Software Engineer to join our team in developing unmanned and autonomous ships for the US Government. The candidate will help design, code, and test software as part of a Scrum team in Arlington, VA, and will assist in coaching and mentoring junior and mid-level developers. Joining other senior developers, the candidate will help to guide projects of significant national importance. Our team of over thirty developers supports a variety of projects, making existing ships operate autonomously as well as working to support new ships through development within design, build, and test phases. Our software handles ship automation, autonomous navigation, sensor processing, and communications. The team also develops simulations to be used for verification and software testing.\n\nPrimary Responsibilities\n• Design, develop, and debug mission critical software source code.\n• Participate in the full software development lifecycle\n• Serve as technical lead for small projects and mentor other engineers.\n• Perform peer reviews of software\n• Collaborate with the continuous process improvement to help the team improve\n• Assist with evaluating field tests\n• Communicate with client project team members.\n• Some travel (up to 25%)\n\nBasic Qualifications\n• A Bachelor’s degree in computer science or STEM field plus 4+ years of software development, or 2+ with a masters degree, and at least 2+ using Linux and C++\n• Significant experience working in a team environment, including experience providing guidance and coaching to other developers\n• Experience designing complex systems, taking into account performance and user requirements\n• Exposure to one or more of the following: high availability, sensor fusion, target tracking, path planning, communications systems, or military systems integration\n• Ability to obtain and maintain a Secret Security Clearance\n\nPreferred Qualifications\n• Familiarity with the Atlassian tool suite\n• Familiarity with automated build processes (Bamboo, Jenkins, etc.)\n• Familiarity with game theory, artificial intelligence, petri nets, safety critical software\n• Demonstrable problem-solving skills\n• Active Secret Security Clearance preferred\n\nIf you're looking for comfort, keep scrolling. At Leidos, we outthink, outbuild, and outpace the status quo — because the mission demands it. We're not hiring followers. We're recruiting the ones who disrupt, provoke, and refuse to fail. Step 10 is ancient history. We're already at step 30 — and moving faster than anyone else dares.\n\nOriginal Posting:\nJuly 9, 2025\n\nFor U.S. Positions: While subject to change based on business needs, Leidos reasonably anticipates that this job requisition will remain open for at least 3 days with an anticipated close date of no earlier than 3 days after the original posting date as listed above.\n\nPay Range:\nPay Range $87,100.00 - $157,450.00\n\nThe Leidos pay range for this job level is a general guideline only and not a guarantee of compensation or salary. Additional factors considered in extending an offer include (but are not limited to) responsibilities of the job, education, experience, knowledge, skills, and abilities, as well as internal equity, alignment with market data, applicable bargaining agreement (if any), or other law.\n\nAbout Leidos\n\nLeidos is an industry and technology leader serving government and commercial customers with smarter, more efficient digital and mission innovations. Headquartered in Reston, Virginia, with 47,000 global employees, Leidos reported annual revenues of approximately $16.7 billion for the fiscal year ended January 3, 2025. For more information, visit www.Leidos.com.\n\nPay and Benefits\n\nPay and benefits are fundamental to any career decision. That's why we craft compensation packages that reflect the importance of the work we do for our customers. Employment benefits include competitive compensation, Health and Wellness programs, Income Protection, Paid Leave and Retirement. More details are available at www.leidos.com/careers/pay-benefits.\n\nSecuring Your Data\n\nBeware of fake employment opportunities using Leidos’ name. Leidos will never ask you to provide payment-related information during any part of the employment application process (i.e., ask you for money), nor will Leidos ever advance money as part of the hiring process (i.e., send you a check or money order before doing any work). Further, Leidos will only communicate with you through emails that are generated by the Leidos.com automated system – never from free commercial services (e.g., Gmail, Yahoo, Hotmail) or via WhatsApp, Telegram, etc. If you received an email purporting to be from Leidos that asks for payment-related information or any other personal information (e.g., about you or your previous employer), and you are concerned about its legitimacy, please make us aware immediately by emailing us at LeidosCareersFraud@leidos.com.\n\nIf you believe you are the victim of a scam, contact your local law enforcement and report the incident to the U.S. Federal Trade Commission.\n\nCommitment to Non-Discrimination\n\nAll qualified applicants will receive consideration for employment without regard to sex, race, ethnicity, age, national origin, citizenship, religion, physical or mental disability, medical condition, genetic information, pregnancy, family structure, marital status, ancestry, domestic partner status, sexual orientation, gender identity or expression, veteran or military status, or any other basis prohibited by law. Leidos will also consider for employment qualified applicants with criminal histories consistent with relevant laws.",
+      "job_is_remote": false,
+      "job_posted_at": "23 days ago",
+      "job_posted_at_timestamp": 1765238400,
+      "job_posted_at_datetime_utc": "2025-12-09T00:00:00.000Z",
+      "job_location": "Arlington, VA",
+      "job_city": "Arlington",
+      "job_state": "Virginia",
+      "job_country": "US",
+      "job_latitude": 38.8816208,
+      "job_longitude": -77.09098089999999,
+      "job_benefits": [
+        "health_insurance"
+      ],
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DiDKvQbAtMH_Wg1BpAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {
+        "Qualifications": [
+          "A Bachelor’s degree in computer science or STEM field plus 4+ years of software development, or 2+ with a masters degree, and at least 2+ using Linux and C++",
+          "Significant experience working in a team environment, including experience providing guidance and coaching to other developers",
+          "Experience designing complex systems, taking into account performance and user requirements",
+          "Exposure to one or more of the following: high availability, sensor fusion, target tracking, path planning, communications systems, or military systems integration",
+          "Ability to obtain and maintain a Secret Security Clearance"
+        ],
+        "Benefits": [
+          "Pay Range $87,100.00 - $157,450.00",
+          "The Leidos pay range for this job level is a general guideline only and not a guarantee of compensation or salary",
+          "Pay and Benefits",
+          "Pay and benefits are fundamental to any career decision",
+          "That's why we craft compensation packages that reflect the importance of the work we do for our customers",
+          "Employment benefits include competitive compensation, Health and Wellness programs, Income Protection, Paid Leave and Retirement"
+        ],
+        "Responsibilities": [
+          "The candidate will help design, code, and test software as part of a Scrum team in Arlington, VA, and will assist in coaching and mentoring junior and mid-level developers",
+          "Joining other senior developers, the candidate will help to guide projects of significant national importance",
+          "Our team of over thirty developers supports a variety of projects, making existing ships operate autonomously as well as working to support new ships through development within design, build, and test phases",
+          "The team also develops simulations to be used for verification and software testing",
+          "Design, develop, and debug mission critical software source code",
+          "Participate in the full software development lifecycle",
+          "Serve as technical lead for small projects and mentor other engineers",
+          "Perform peer reviews of software",
+          "Collaborate with the continuous process improvement to help the team improve",
+          "Assist with evaluating field tests",
+          "Communicate with client project team members",
+          "Some travel (up to 25%)"
+        ]
+      },
+      "job_onet_soc": "15113200",
+      "job_onet_job_zone": "4"
+    }
+  },
+  {
+    "id": "S1PCayOulbDNX10CAAAAAA==",
+    "title": "Python Senior Software Engineer",
+    "company": "Walmart",
+    "location": "Washington, District of Columbia, US",
+    "description": "Position Summary...\n\nWhat you'll do...\n\nAs a part of Walmart Global Tech, you’ll build industry defining reusable customer and partner facing services and products to lead differentiated experiences and revenue. You will be in the unique position to be of service to both our customers (1P as well as 3P) and our associates as a member of this organization supporting all segments of Walmart. If you are the type of person who feels a personal stake in everything that you work on, has a love for data, enjoys solving complex problems, has a passion for privacy, knows how to foster strong relationships and build trust, and works for the success of the entire team.\n\nAbout Team:\nOur team works closely with our US stores and eCommerce business to better serve customers by empowering team members, stores, and merchants with technological innovation. From groceries and entertainment to sporting goods and crafts, Walmart U.S. offers an extensive selection that our customers value, whether they shop online at Walmart.com, through one of our mobile apps, or in-store. Focus areas include customers, stores and employees, in-store service, merchant tools, merchant data science, and search and personalization.\n\nWhat you'll do:\n• Design, build, and maintain high-performance front-end applications for our 1P and 3P customers.\n• Develop robust, maintainable, reusable code for managing functionality, configuration, deployment, monitoring, performance, scalability, availability, security, and alerting for software test, integration, and production environments.\n• Plan and implement a series of steps which potentially includes reconfiguration, integration, removal, or addition of application components to enhance the application's functionality, resiliency, usability, and security.\n• Understand the Business/Stakeholder/Technical requirements and assist in analyzing the existing solutions to address the needs. Assist in creation of simple, modular, extensible functional design for the product/solution in adherence to the requirements.\n• Assess gaps/ updates/ modifications between the customer/business expectations and the existing product/solutions.\n• Analyze defects from past projects/solutions to avoid recurrence of similar defects.\n• Analyze system performance impacting the complete product for non-functional requirements like reliability, operability, performance efficiency and security. Troubleshoot performance and availability bottlenecks for the application.\n• Develop, maintain, and enhance automated test cases (adopting Shift Left practice) and deployment procedures.\n• Follow coding and design best practices developed by the teams and contribute towards their continuous improvement.\n• Plan Hardware Capacity for high traffic business Events.\n• Design Build and maintain Observability aspects of application.\n• Review Peer Code and help create a culture of continuous improvements on the architecture.\n• Work with relevant stakeholders on launching AB tests for different functionalities getting rolled out.\n\nWhat you'll bring:\n• Experience in creating user interfaces using appropriate and relevant technologies (e.g., HTML 5 coding, CSS (Cascading Style Sheets) libraries like Bootstrap, etc.) using best practices and appropriate design patterns.\n• Relevant front end programming experience in relevant languages and frameworks (e.g., Java, Python, JavaScript, Spring, Node, React, Angular etc.)\n• Experience integrating with scalable back-end services (e.g., REST / graph-QL).\n• Experience in functional, integration and E2E (End 2 End) testing tools and practices.\n• Experience with code repositories and version control practices.\n• Experience with CI/CD pipelines and best practices. Automated deployment experience is a plus.\n• Experience in software quality and operational excellence practices.\n• Experience in agile development methodology.\n• Good analytical and problem-solving skills.\n\nAbout Walmart Global Tech\nImagine working in an environment where one line of code can make life easier for hundreds of millions of people. That’s what we do at Walmart Global Tech. We’re a team of software engineers, data scientists, cybersecurity expert's and service professionals within the world’s leading retailer who make an epic impact and are at the forefront of the next retail disruption. People are why we innovate, and people power our innovations. We are people-led and tech-empowered. We train our team in the skillsets of the future and bring in experts like you to help us grow. We have roles for those chasing their first opportunity as well as those looking for the opportunity that will define their career. Here, you can kickstart an illustrious career in tech, gain new skills and experience for virtually every industry, or leverage your expertise to innovate at scale, impact millions and reimagine the future of retail.\n\nFlexible, hybrid work:\nWe use a hybrid way of working that is primarily in the office coupled with virtual when not onsite. Our campuses serve as a hub to enhance collaboration, bring us together for purpose and deliver on business needs. This approach helps us make quicker decisions, remove location barriers across our global team and be more flexible in our personal lives.\n\n#MPAcceleration\n\nAt Walmart, we offer competitive pay as well as performance-based bonus awards and other great benefits for a happier mind, body, and wallet. Health benefits include medical, vision and dental coverage. Financial benefits include 401(k), stock purchase and company-paid life insurance. Paid time off benefits include PTO (including sick leave), parental leave, family care leave, bereavement, jury duty, and voting. Other benefits include short-term and long-term disability, company discounts, Military Leave Pay, adoption and surrogacy expense reimbursement, and more.\n\n‎\n\n‎\n\n‎\nYou will also receive PTO and/or PPTO that can be used for vacation, sick leave, holidays, or other purposes. The amount you receive depends on your job classification and length of employment. It will meet or exceed the requirements of paid sick leave laws, where applicable.\n\n‎\n\nFor information about PTO, see https://one.walmart.com/notices.\n\n‎\n\n‎\nLive Better U is a Walmart-paid education benefit program for full-time and part-time associates in Walmart and Sam's Club facilities. Programs range from high school completion to bachelor's degrees, including English Language Learning and short-form certificates. Tuition, books, and fees are completely paid for by Walmart.\n\n‎\nEligibility requirements apply to some benefits and may depend on your job classification and length of employment. Benefits are subject to change and may be subject to a specific plan or program terms.\n\n‎\n\nFor information about benefits and eligibility, see One.Walmart.\n\n‎\nThe annual salary range for this position is $108,000.00-$216,000.00\n\n‎\nAdditional compensation includes annual or quarterly performance bonuses.\n\n‎\nAdditional compensation for certain positions may also include:\n\n‎\n\n‎\n- Stock\n\n‎\n\n‎\n\nMinimum Qualifications...\n\nOutlined below are the required minimum qualifications for this position. If none are listed, there are no minimum qualifications.\n\nOption 1: Bachelor's degree in computer science, computer engineering, computer information systems, software engineering, or related area and 3 years’ experience in software engineering or related area.Option 2: 5 years’ experience in software engineering or related area.\n\nPreferred Qualifications...\n\nOutlined below are the optional preferred qualifications for this position. If none are listed, there are no preferred qualifications.\n\nMaster’s degree in Computer Science, Computer Engineering, Computer Information Systems, Software Engineering, or related area and 1 year's experience in software engineering or related area., We value candidates with a background in creating inclusive digital experiences, demonstrating knowledge in implementing Web Content Accessibility Guidelines (WCAG) 2.2 AA standards, assistive technologies, and integrating digital accessibility seamlessly. The ideal candidate would have knowledge of accessibility best practices and join us as we continue to create accessible products and services following Walmart’s accessibility standards and guidelines for supporting an inclusive culture.\n\nPrimary Location...\n\n10790 Parkridge Dr. Suite 200, Reston, VA 20191, United States of America\n\nWalmart and its subsidiaries are committed to maintaining a drug-free workplace and has a no tolerance policy regarding the use of illegal drugs and alcohol on the job. This policy applies to all employees and aims to create a safe and productive work environment.",
+    "requirements": "Experience in creating user interfaces using appropriate and relevant technologies (e.g., HTML 5 coding, CSS (Cascading Style Sheets) libraries like Bootstrap, etc.) using best practices and appropriate design patterns\nRelevant front end programming experience in relevant languages and frameworks (e.g., Java, Python, JavaScript, Spring, Node, React, Angular etc.)\nExperience integrating with scalable back-end services (e.g., REST / graph-QL)\nExperience in functional, integration and E2E (End 2 End) testing tools and practices\nExperience with code repositories and version control practices\nExperience with CI/CD pipelines and best practices\nExperience in software quality and operational excellence practices\nExperience in agile development methodology\nGood analytical and problem-solving skills\nAbout Walmart Global Tech\nOption 1: Bachelor's degree in computer science, computer engineering, computer information systems, software engineering, or related area and 3 years’ experience in software engineering or related area\nOption 2: 5 years’ experience in software engineering or related area\nMaster’s degree in Computer Science, Computer Engineering, Computer Information Systems, Software Engineering, or related area and 1 year's experience in software engineering or related area., We value candidates with a background in creating inclusive digital experiences, demonstrating knowledge in implementing Web Content Accessibility Guidelines (WCAG) 2.2 AA standards, assistive technologies, and integrating digital accessibility seamlessly\nThe ideal candidate would have knowledge of accessibility best practices and join us as we continue to create accessible products and services following Walmart’s accessibility standards and guidelines for supporting an inclusive culture",
+    "employment_type": "Full-time and Part-time",
+    "url": "https://www.ziprecruiter.com/c/Walmart/Job/Python-Senior-Software-Engineer/-in-Washington,DC?jid=0ae1337c72cef315&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+    "posted_date": "2025-12-31T00:00:00.000Z",
+    "min_salary": 108000,
+    "max_salary": 216000,
+    "is_remote": false,
+    "raw": {
+      "job_id": "S1PCayOulbDNX10CAAAAAA==",
+      "job_title": "Python Senior Software Engineer",
+      "employer_name": "Walmart",
+      "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0XcK_pPTIiFuiAYrGraOGjkX3xDSPgjHRhL3B&s=0",
+      "employer_website": "https://corporate.walmart.com",
+      "job_publisher": "ZipRecruiter",
+      "job_employment_type": "Full-time and Part-time",
+      "job_employment_types": [
+        "FULLTIME",
+        "PARTTIME"
+      ],
+      "job_apply_link": "https://www.ziprecruiter.com/c/Walmart/Job/Python-Senior-Software-Engineer/-in-Washington,DC?jid=0ae1337c72cef315&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": true,
+      "apply_options": [
+        {
+          "publisher": "ZipRecruiter",
+          "apply_link": "https://www.ziprecruiter.com/c/Walmart/Job/Python-Senior-Software-Engineer/-in-Washington,DC?jid=0ae1337c72cef315&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        },
+        {
+          "publisher": "Jobs.appcast.io",
+          "apply_link": "https://jobs.appcast.io/walmart/python-senior-software-engineer/39184147125?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        }
+      ],
+      "job_description": "Position Summary...\n\nWhat you'll do...\n\nAs a part of Walmart Global Tech, you’ll build industry defining reusable customer and partner facing services and products to lead differentiated experiences and revenue. You will be in the unique position to be of service to both our customers (1P as well as 3P) and our associates as a member of this organization supporting all segments of Walmart. If you are the type of person who feels a personal stake in everything that you work on, has a love for data, enjoys solving complex problems, has a passion for privacy, knows how to foster strong relationships and build trust, and works for the success of the entire team.\n\nAbout Team:\nOur team works closely with our US stores and eCommerce business to better serve customers by empowering team members, stores, and merchants with technological innovation. From groceries and entertainment to sporting goods and crafts, Walmart U.S. offers an extensive selection that our customers value, whether they shop online at Walmart.com, through one of our mobile apps, or in-store. Focus areas include customers, stores and employees, in-store service, merchant tools, merchant data science, and search and personalization.\n\nWhat you'll do:\n• Design, build, and maintain high-performance front-end applications for our 1P and 3P customers.\n• Develop robust, maintainable, reusable code for managing functionality, configuration, deployment, monitoring, performance, scalability, availability, security, and alerting for software test, integration, and production environments.\n• Plan and implement a series of steps which potentially includes reconfiguration, integration, removal, or addition of application components to enhance the application's functionality, resiliency, usability, and security.\n• Understand the Business/Stakeholder/Technical requirements and assist in analyzing the existing solutions to address the needs. Assist in creation of simple, modular, extensible functional design for the product/solution in adherence to the requirements.\n• Assess gaps/ updates/ modifications between the customer/business expectations and the existing product/solutions.\n• Analyze defects from past projects/solutions to avoid recurrence of similar defects.\n• Analyze system performance impacting the complete product for non-functional requirements like reliability, operability, performance efficiency and security. Troubleshoot performance and availability bottlenecks for the application.\n• Develop, maintain, and enhance automated test cases (adopting Shift Left practice) and deployment procedures.\n• Follow coding and design best practices developed by the teams and contribute towards their continuous improvement.\n• Plan Hardware Capacity for high traffic business Events.\n• Design Build and maintain Observability aspects of application.\n• Review Peer Code and help create a culture of continuous improvements on the architecture.\n• Work with relevant stakeholders on launching AB tests for different functionalities getting rolled out.\n\nWhat you'll bring:\n• Experience in creating user interfaces using appropriate and relevant technologies (e.g., HTML 5 coding, CSS (Cascading Style Sheets) libraries like Bootstrap, etc.) using best practices and appropriate design patterns.\n• Relevant front end programming experience in relevant languages and frameworks (e.g., Java, Python, JavaScript, Spring, Node, React, Angular etc.)\n• Experience integrating with scalable back-end services (e.g., REST / graph-QL).\n• Experience in functional, integration and E2E (End 2 End) testing tools and practices.\n• Experience with code repositories and version control practices.\n• Experience with CI/CD pipelines and best practices. Automated deployment experience is a plus.\n• Experience in software quality and operational excellence practices.\n• Experience in agile development methodology.\n• Good analytical and problem-solving skills.\n\nAbout Walmart Global Tech\nImagine working in an environment where one line of code can make life easier for hundreds of millions of people. That’s what we do at Walmart Global Tech. We’re a team of software engineers, data scientists, cybersecurity expert's and service professionals within the world’s leading retailer who make an epic impact and are at the forefront of the next retail disruption. People are why we innovate, and people power our innovations. We are people-led and tech-empowered. We train our team in the skillsets of the future and bring in experts like you to help us grow. We have roles for those chasing their first opportunity as well as those looking for the opportunity that will define their career. Here, you can kickstart an illustrious career in tech, gain new skills and experience for virtually every industry, or leverage your expertise to innovate at scale, impact millions and reimagine the future of retail.\n\nFlexible, hybrid work:\nWe use a hybrid way of working that is primarily in the office coupled with virtual when not onsite. Our campuses serve as a hub to enhance collaboration, bring us together for purpose and deliver on business needs. This approach helps us make quicker decisions, remove location barriers across our global team and be more flexible in our personal lives.\n\n#MPAcceleration\n\nAt Walmart, we offer competitive pay as well as performance-based bonus awards and other great benefits for a happier mind, body, and wallet. Health benefits include medical, vision and dental coverage. Financial benefits include 401(k), stock purchase and company-paid life insurance. Paid time off benefits include PTO (including sick leave), parental leave, family care leave, bereavement, jury duty, and voting. Other benefits include short-term and long-term disability, company discounts, Military Leave Pay, adoption and surrogacy expense reimbursement, and more.\n\n‎\n\n‎\n\n‎\nYou will also receive PTO and/or PPTO that can be used for vacation, sick leave, holidays, or other purposes. The amount you receive depends on your job classification and length of employment. It will meet or exceed the requirements of paid sick leave laws, where applicable.\n\n‎\n\nFor information about PTO, see https://one.walmart.com/notices.\n\n‎\n\n‎\nLive Better U is a Walmart-paid education benefit program for full-time and part-time associates in Walmart and Sam's Club facilities. Programs range from high school completion to bachelor's degrees, including English Language Learning and short-form certificates. Tuition, books, and fees are completely paid for by Walmart.\n\n‎\nEligibility requirements apply to some benefits and may depend on your job classification and length of employment. Benefits are subject to change and may be subject to a specific plan or program terms.\n\n‎\n\nFor information about benefits and eligibility, see One.Walmart.\n\n‎\nThe annual salary range for this position is $108,000.00-$216,000.00\n\n‎\nAdditional compensation includes annual or quarterly performance bonuses.\n\n‎\nAdditional compensation for certain positions may also include:\n\n‎\n\n‎\n- Stock\n\n‎\n\n‎\n\nMinimum Qualifications...\n\nOutlined below are the required minimum qualifications for this position. If none are listed, there are no minimum qualifications.\n\nOption 1: Bachelor's degree in computer science, computer engineering, computer information systems, software engineering, or related area and 3 years’ experience in software engineering or related area.Option 2: 5 years’ experience in software engineering or related area.\n\nPreferred Qualifications...\n\nOutlined below are the optional preferred qualifications for this position. If none are listed, there are no preferred qualifications.\n\nMaster’s degree in Computer Science, Computer Engineering, Computer Information Systems, Software Engineering, or related area and 1 year's experience in software engineering or related area., We value candidates with a background in creating inclusive digital experiences, demonstrating knowledge in implementing Web Content Accessibility Guidelines (WCAG) 2.2 AA standards, assistive technologies, and integrating digital accessibility seamlessly. The ideal candidate would have knowledge of accessibility best practices and join us as we continue to create accessible products and services following Walmart’s accessibility standards and guidelines for supporting an inclusive culture.\n\nPrimary Location...\n\n10790 Parkridge Dr. Suite 200, Reston, VA 20191, United States of America\n\nWalmart and its subsidiaries are committed to maintaining a drug-free workplace and has a no tolerance policy regarding the use of illegal drugs and alcohol on the job. This policy applies to all employees and aims to create a safe and productive work environment.",
+      "job_is_remote": false,
+      "job_posted_at": "1 day ago",
+      "job_posted_at_timestamp": 1767139200,
+      "job_posted_at_datetime_utc": "2025-12-31T00:00:00.000Z",
+      "job_location": "Washington, DC",
+      "job_city": "Washington",
+      "job_state": "District of Columbia",
+      "job_country": "US",
+      "job_latitude": 38.9071923,
+      "job_longitude": -77.0368707,
+      "job_benefits": [
+        "dental_coverage",
+        "paid_time_off",
+        "health_insurance"
+      ],
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DS1PCayOulbDNX10CAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_min_salary": 108000,
+      "job_max_salary": 216000,
+      "job_salary_period": "YEAR",
+      "job_highlights": {
+        "Qualifications": [
+          "Experience in creating user interfaces using appropriate and relevant technologies (e.g., HTML 5 coding, CSS (Cascading Style Sheets) libraries like Bootstrap, etc.) using best practices and appropriate design patterns",
+          "Relevant front end programming experience in relevant languages and frameworks (e.g., Java, Python, JavaScript, Spring, Node, React, Angular etc.)",
+          "Experience integrating with scalable back-end services (e.g., REST / graph-QL)",
+          "Experience in functional, integration and E2E (End 2 End) testing tools and practices",
+          "Experience with code repositories and version control practices",
+          "Experience with CI/CD pipelines and best practices",
+          "Experience in software quality and operational excellence practices",
+          "Experience in agile development methodology",
+          "Good analytical and problem-solving skills",
+          "About Walmart Global Tech",
+          "Option 1: Bachelor's degree in computer science, computer engineering, computer information systems, software engineering, or related area and 3 years’ experience in software engineering or related area",
+          "Option 2: 5 years’ experience in software engineering or related area",
+          "Master’s degree in Computer Science, Computer Engineering, Computer Information Systems, Software Engineering, or related area and 1 year's experience in software engineering or related area., We value candidates with a background in creating inclusive digital experiences, demonstrating knowledge in implementing Web Content Accessibility Guidelines (WCAG) 2.2 AA standards, assistive technologies, and integrating digital accessibility seamlessly",
+          "The ideal candidate would have knowledge of accessibility best practices and join us as we continue to create accessible products and services following Walmart’s accessibility standards and guidelines for supporting an inclusive culture"
+        ],
+        "Benefits": [
+          "At Walmart, we offer competitive pay as well as performance-based bonus awards and other great benefits for a happier mind, body, and wallet",
+          "Health benefits include medical, vision and dental coverage",
+          "Financial benefits include 401(k), stock purchase and company-paid life insurance",
+          "Paid time off benefits include PTO (including sick leave), parental leave, family care leave, bereavement, jury duty, and voting",
+          "Other benefits include short-term and long-term disability, company discounts, Military Leave Pay, adoption and surrogacy expense reimbursement, and more",
+          "You will also receive PTO and/or PPTO that can be used for vacation, sick leave, holidays, or other purposes",
+          "The amount you receive depends on your job classification and length of employment",
+          "It will meet or exceed the requirements of paid sick leave laws, where applicable",
+          "Live Better U is a Walmart-paid education benefit program for full-time and part-time associates in Walmart and Sam's Club facilities",
+          "Programs range from high school completion to bachelor's degrees, including English Language Learning and short-form certificates",
+          "Tuition, books, and fees are completely paid for by Walmart",
+          "Benefits are subject to change and may be subject to a specific plan or program terms",
+          "The annual salary range for this position is $108,000.00-$216,000.00",
+          "Additional compensation includes annual or quarterly performance bonuses"
+        ],
+        "Responsibilities": [
+          "As a part of Walmart Global Tech, you’ll build industry defining reusable customer and partner facing services and products to lead differentiated experiences and revenue",
+          "You will be in the unique position to be of service to both our customers (1P as well as 3P) and our associates as a member of this organization supporting all segments of Walmart",
+          "Design, build, and maintain high-performance front-end applications for our 1P and 3P customers",
+          "Develop robust, maintainable, reusable code for managing functionality, configuration, deployment, monitoring, performance, scalability, availability, security, and alerting for software test, integration, and production environments",
+          "Plan and implement a series of steps which potentially includes reconfiguration, integration, removal, or addition of application components to enhance the application's functionality, resiliency, usability, and security",
+          "Understand the Business/Stakeholder/Technical requirements and assist in analyzing the existing solutions to address the needs",
+          "Assist in creation of simple, modular, extensible functional design for the product/solution in adherence to the requirements",
+          "Assess gaps/ updates/ modifications between the customer/business expectations and the existing product/solutions",
+          "Analyze defects from past projects/solutions to avoid recurrence of similar defects",
+          "Analyze system performance impacting the complete product for non-functional requirements like reliability, operability, performance efficiency and security",
+          "Troubleshoot performance and availability bottlenecks for the application",
+          "Develop, maintain, and enhance automated test cases (adopting Shift Left practice) and deployment procedures",
+          "Follow coding and design best practices developed by the teams and contribute towards their continuous improvement",
+          "Plan Hardware Capacity for high traffic business Events",
+          "Design Build and maintain Observability aspects of application",
+          "Review Peer Code and help create a culture of continuous improvements on the architecture",
+          "Work with relevant stakeholders on launching AB tests for different functionalities getting rolled out"
+        ]
+      },
+      "job_onet_soc": "15113200",
+      "job_onet_job_zone": "4"
+    }
+  },
+  {
+    "id": "zgO8Qtkr7jX-ZK3QAAAAAA==",
+    "title": "Software Developer (AI Engineer)",
+    "company": "Washington Metropolitan Area Transit Authority",
+    "location": "Washington, District of Columbia, US",
+    "description": "Job Description\n\nDepartment Marketing Statement:\n\nWMATA presents an exciting AI Developer role that involves complex technical and business processes¿shaping how the authority¿s data is accessed, shared, and interpreted.\n\nWe¿re looking for a passionate AI Engineer to design, develop, and deploy cutting-edge intelligent solutions that transform enterprise systems. In this role, you¿ll work with large datasets, build predictive models, and integrate advanced AI capabilities¿leveraging machine learning, deep learning, and natural language processing¿to solve real-world business challenges.\n\nIf you have experience with cloud platforms like OCI or Azure, expertise in MLOps, model lifecycle management, and modern AI frameworks such as TensorFlow, PyTorch, or Hugging Face, we want to hear from you! You¿ll collaborate with data engineers, analysts, and business stakeholders to deliver scalable, impactful AI-driven solutions that make a difference.\n\nMinimum Qualifications\n\nMinimum Education\n• Graduation from an accredited college/ university with a Bachelor's Degree in Mathematics, Computer Science, Engineering or related field.\n• In lieu of degree, a high schooldiploma or GED and additional four (4) yearsof experience in progressively responsible and diversified information systems, communication systems management and technical experience in a large organization.\n\nMinimum Experience\n• Five (5) yearsof experience in progressively responsible and diversified information systems, communication systems management and technical experience in a large organization.\n\nMinimum Certification/Licensure\n• N/A\n\nPreferred Qualifications\n• Experience in design, development and maintenance of operational applications preferably includingresponsibilities as seniortechnical staff and project managerand as senior technical staff and project manager is preferred.\n\nMedical Group\n\nSatisfactorily complete the medical examination for this position, if required. The incumbent must be able to perform the essential functions of this position either with or without reasonable accommodations.\n\nSummary\n\nThe Software Developer is responsible for resolving the most complex application system problems within Digital Modernization. The incumbent plans, leads, coordinates, and participates in the design, development, quality assurance, installation, testing, and maintenance of assigned software/hardware systems to achieve project objectives and minimize the real-time operational impact of changes on current and developing application systems. The Developer ensures that established system functionality, reliability, performance and availability are maintained throughout the system development cycle, from initial inception through implementation and routine monitoring. The incumbent serves as functional area task leader and may serveas project leaderon complex systemsor technical task forces by planning, assigning, scheduling. They may monitor contractor performance for effectiveness in meeting objectives and solving problems, as well as coordinating projects within Digital Modernization. The Developer is responsible for one or more application projects to include identification and resolution of technical problems. The incumbent has considerable latitude for independent technical and professional judgment within approved plans and established guidelines.\n\nEssential Functions\n\nPrincipalJob Duties\n• Provides technical leadership and/or specialized technical assistance in problem-solving and application systems development.\n• Provides expert assistance in assigned criticalsystems areas withinthe department.\n• Develops, enhances and maintains applications and integrations withinDigital Modernization's portfolio\n• Prepares concise reportssuitable for all levels of management regarding projects and technical issues within assigned areas of responsibility.\n• Performs assignments using a full complement of software engineering skills such as requirements specification, system design,software development, qualityassurance, documentation, and testing.\n• Functions as project engineer for system configuration management plan, with assigned responsibilityand is designated as the prime pointof contact. Responsible for the maintenance and execution of project configuration version control when making changes to existing application software or designing new software.\n• Is responsible for being on call during\"off\" hours and must respondto emergency outageseither via telephone, email, or in person and assists on-site staff until normal operations are resumed.\n• Provides technical leadership and/or specialized technicalassistance in problemsolving and application systems development.\n• Is responsible for a high level of operational performance and software reliability within major application systems throughout Digital Modernization.\n• Develops, reviews and updates varioussystems or softwareas required, in compliance with WMATA Standards and Criteria and Standard Specifications with industry standards, best industry practices, and current or future WMATA practices.\n• Develops and reviewsother department technical specifications and task orders for procurement of hardware, software, test equipment and services.\n• Performs failure analysisand prepares reportsincluding root causeand recommended corrective action for stakeholders and management. Evaluates and provide guidanceon system changesto determine feasibility, alternative solutions, and back out procedures.\n• Works closely with end usersto understand theirinformation requirements and to directresolution of their problems.\n• Maintains up-to date supportrequests and projectwork plans. Preparesstatus reports to compare progress with work plans.\n• Advises supervisory staff concerning system modifications and applications system deficiencies, end user requirements, and computer hardware,and recommends softwaresupport, work method and practice improvements.\n• Works variable hours to avoid adverse impact on operations and availability.\n\nOther Duties\n• Maintains and promotesawareness and accountability with safety policiesand procedures while performing job functions. Promotes a positive safety culture and encourages reporting of safety consistent with our Agency SafetyPlan, other regulatory requirements within the Safety Management System and just culture principles.\n\nThe functions listed are not intended to limit specific duties and responsibilities of any particular position. Nor is it intended to limit in any way the right of managers and supervisors to assign, direct and control the work of employees under their supervision.\n\nEvaluation Criteria\n\nConsideration will be given to applicants whose resumes demonstrate the required education and experience. Applicants should include all relevant education and work experience.\nEvaluation criteria may include one or more of the following:\n• Skills and/or behavioral assessment\n• Personal interview\n• Verification of education and experience (including certifications and licenses)\n• Criminal Background Check (a criminal conviction is not an automatic bar to employment)\n• Medical examination including a drug and alcohol screening (for safety sensitive positions)\n• Review of a current motor vehicle report\n\nClosing\n\nWMATA is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, status as a protected veteran, or any other status protected by applicable federal law.\nThis posting is an announcement of a vacant position under recruitment. It is not intended to replace the official job description. Job descriptions are available upon confirmation of an interview.",
+    "requirements": "Graduation from an accredited college/ university with a Bachelor's Degree in Mathematics, Computer Science, Engineering or related field\nIn lieu of degree, a high schooldiploma or GED and additional four (4) yearsof experience in progressively responsible and diversified information systems, communication systems management and technical experience in a large organization\nFive (5) yearsof experience in progressively responsible and diversified information systems, communication systems management and technical experience in a large organization\nThe incumbent must be able to perform the essential functions of this position either with or without reasonable accommodations\nConsideration will be given to applicants whose resumes demonstrate the required education and experience\nApplicants should include all relevant education and work experience\nSkills and/or behavioral assessment\nPersonal interview\nVerification of education and experience (including certifications and licenses)\nCriminal Background Check (a criminal conviction is not an automatic bar to employment)",
+    "employment_type": "Full-time",
+    "url": "https://www.indeed.com/viewjob?jk=beb402675de60ec0&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+    "posted_date": null,
+    "min_salary": null,
+    "max_salary": null,
+    "is_remote": false,
+    "raw": {
+      "job_id": "zgO8Qtkr7jX-ZK3QAAAAAA==",
+      "job_title": "Software Developer (AI Engineer)",
+      "employer_name": "Washington Metropolitan Area Transit Authority",
+      "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwu9DCOgrESAJMAscNmEoOA45poB0j7Ulv7kfp&s=0",
+      "employer_website": null,
+      "job_publisher": "Indeed",
+      "job_employment_type": "Full-time",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://www.indeed.com/viewjob?jk=beb402675de60ec0&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "publisher": "Indeed",
+          "apply_link": "https://www.indeed.com/viewjob?jk=beb402675de60ec0&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Transit Talent",
+          "apply_link": "https://www.transittalent.com/job-software-developer-ai-engineer-173911?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Dice",
+          "apply_link": "https://www.dice.com/job-detail/d1f78186-a47d-40a4-99f7-23fd2724c750?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "SimplyHired",
+          "apply_link": "https://www.simplyhired.com/job/x6eBoen2Rzl49RF8swRpMq2EeJhRRswJQrQVzXuZWCh6s2C-hJnEiw?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "LinkedIn",
+          "apply_link": "https://www.linkedin.com/jobs/view/software-developer-ai-engineer-at-washington-metropolitan-area-transit-authority-wmata-4341834476?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "JobGet",
+          "apply_link": "https://www.jobget.com/jobs/job/50be6004-4c79-4a3b-b1d0-400eb9c782f3?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Snagajob",
+          "apply_link": "https://www.snagajob.com/jobs/1188761978?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false
+        },
+        {
+          "publisher": "Jobs.weekday.works",
+          "apply_link": "https://jobs.weekday.works/wmata-software-developer-(ai-engineer)?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": true
+        }
+      ],
+      "job_description": "Job Description\n\nDepartment Marketing Statement:\n\nWMATA presents an exciting AI Developer role that involves complex technical and business processes¿shaping how the authority¿s data is accessed, shared, and interpreted.\n\nWe¿re looking for a passionate AI Engineer to design, develop, and deploy cutting-edge intelligent solutions that transform enterprise systems. In this role, you¿ll work with large datasets, build predictive models, and integrate advanced AI capabilities¿leveraging machine learning, deep learning, and natural language processing¿to solve real-world business challenges.\n\nIf you have experience with cloud platforms like OCI or Azure, expertise in MLOps, model lifecycle management, and modern AI frameworks such as TensorFlow, PyTorch, or Hugging Face, we want to hear from you! You¿ll collaborate with data engineers, analysts, and business stakeholders to deliver scalable, impactful AI-driven solutions that make a difference.\n\nMinimum Qualifications\n\nMinimum Education\n• Graduation from an accredited college/ university with a Bachelor's Degree in Mathematics, Computer Science, Engineering or related field.\n• In lieu of degree, a high schooldiploma or GED and additional four (4) yearsof experience in progressively responsible and diversified information systems, communication systems management and technical experience in a large organization.\n\nMinimum Experience\n• Five (5) yearsof experience in progressively responsible and diversified information systems, communication systems management and technical experience in a large organization.\n\nMinimum Certification/Licensure\n• N/A\n\nPreferred Qualifications\n• Experience in design, development and maintenance of operational applications preferably includingresponsibilities as seniortechnical staff and project managerand as senior technical staff and project manager is preferred.\n\nMedical Group\n\nSatisfactorily complete the medical examination for this position, if required. The incumbent must be able to perform the essential functions of this position either with or without reasonable accommodations.\n\nSummary\n\nThe Software Developer is responsible for resolving the most complex application system problems within Digital Modernization. The incumbent plans, leads, coordinates, and participates in the design, development, quality assurance, installation, testing, and maintenance of assigned software/hardware systems to achieve project objectives and minimize the real-time operational impact of changes on current and developing application systems. The Developer ensures that established system functionality, reliability, performance and availability are maintained throughout the system development cycle, from initial inception through implementation and routine monitoring. The incumbent serves as functional area task leader and may serveas project leaderon complex systemsor technical task forces by planning, assigning, scheduling. They may monitor contractor performance for effectiveness in meeting objectives and solving problems, as well as coordinating projects within Digital Modernization. The Developer is responsible for one or more application projects to include identification and resolution of technical problems. The incumbent has considerable latitude for independent technical and professional judgment within approved plans and established guidelines.\n\nEssential Functions\n\nPrincipalJob Duties\n• Provides technical leadership and/or specialized technical assistance in problem-solving and application systems development.\n• Provides expert assistance in assigned criticalsystems areas withinthe department.\n• Develops, enhances and maintains applications and integrations withinDigital Modernization's portfolio\n• Prepares concise reportssuitable for all levels of management regarding projects and technical issues within assigned areas of responsibility.\n• Performs assignments using a full complement of software engineering skills such as requirements specification, system design,software development, qualityassurance, documentation, and testing.\n• Functions as project engineer for system configuration management plan, with assigned responsibilityand is designated as the prime pointof contact. Responsible for the maintenance and execution of project configuration version control when making changes to existing application software or designing new software.\n• Is responsible for being on call during\"off\" hours and must respondto emergency outageseither via telephone, email, or in person and assists on-site staff until normal operations are resumed.\n• Provides technical leadership and/or specialized technicalassistance in problemsolving and application systems development.\n• Is responsible for a high level of operational performance and software reliability within major application systems throughout Digital Modernization.\n• Develops, reviews and updates varioussystems or softwareas required, in compliance with WMATA Standards and Criteria and Standard Specifications with industry standards, best industry practices, and current or future WMATA practices.\n• Develops and reviewsother department technical specifications and task orders for procurement of hardware, software, test equipment and services.\n• Performs failure analysisand prepares reportsincluding root causeand recommended corrective action for stakeholders and management. Evaluates and provide guidanceon system changesto determine feasibility, alternative solutions, and back out procedures.\n• Works closely with end usersto understand theirinformation requirements and to directresolution of their problems.\n• Maintains up-to date supportrequests and projectwork plans. Preparesstatus reports to compare progress with work plans.\n• Advises supervisory staff concerning system modifications and applications system deficiencies, end user requirements, and computer hardware,and recommends softwaresupport, work method and practice improvements.\n• Works variable hours to avoid adverse impact on operations and availability.\n\nOther Duties\n• Maintains and promotesawareness and accountability with safety policiesand procedures while performing job functions. Promotes a positive safety culture and encourages reporting of safety consistent with our Agency SafetyPlan, other regulatory requirements within the Safety Management System and just culture principles.\n\nThe functions listed are not intended to limit specific duties and responsibilities of any particular position. Nor is it intended to limit in any way the right of managers and supervisors to assign, direct and control the work of employees under their supervision.\n\nEvaluation Criteria\n\nConsideration will be given to applicants whose resumes demonstrate the required education and experience. Applicants should include all relevant education and work experience.\nEvaluation criteria may include one or more of the following:\n• Skills and/or behavioral assessment\n• Personal interview\n• Verification of education and experience (including certifications and licenses)\n• Criminal Background Check (a criminal conviction is not an automatic bar to employment)\n• Medical examination including a drug and alcohol screening (for safety sensitive positions)\n• Review of a current motor vehicle report\n\nClosing\n\nWMATA is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, status as a protected veteran, or any other status protected by applicable federal law.\nThis posting is an announcement of a vacant position under recruitment. It is not intended to replace the official job description. Job descriptions are available upon confirmation of an interview.",
+      "job_is_remote": false,
+      "job_posted_at": null,
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Washington, DC",
+      "job_city": "Washington",
+      "job_state": "District of Columbia",
+      "job_country": "US",
+      "job_latitude": 38.9071923,
+      "job_longitude": -77.0368707,
+      "job_benefits": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DzgO8Qtkr7jX-ZK3QAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {
+        "Qualifications": [
+          "Graduation from an accredited college/ university with a Bachelor's Degree in Mathematics, Computer Science, Engineering or related field",
+          "In lieu of degree, a high schooldiploma or GED and additional four (4) yearsof experience in progressively responsible and diversified information systems, communication systems management and technical experience in a large organization",
+          "Five (5) yearsof experience in progressively responsible and diversified information systems, communication systems management and technical experience in a large organization",
+          "The incumbent must be able to perform the essential functions of this position either with or without reasonable accommodations",
+          "Consideration will be given to applicants whose resumes demonstrate the required education and experience",
+          "Applicants should include all relevant education and work experience",
+          "Skills and/or behavioral assessment",
+          "Personal interview",
+          "Verification of education and experience (including certifications and licenses)",
+          "Criminal Background Check (a criminal conviction is not an automatic bar to employment)"
+        ],
+        "Responsibilities": [
+          "In this role, you¿ll work with large datasets, build predictive models, and integrate advanced AI capabilities¿leveraging machine learning, deep learning, and natural language processing¿to solve real-world business challenges",
+          "If you have experience with cloud platforms like OCI or Azure, expertise in MLOps, model lifecycle management, and modern AI frameworks such as TensorFlow, PyTorch, or Hugging Face, we want to hear from you!",
+          "You¿ll collaborate with data engineers, analysts, and business stakeholders to deliver scalable, impactful AI-driven solutions that make a difference",
+          "Satisfactorily complete the medical examination for this position, if required",
+          "The Software Developer is responsible for resolving the most complex application system problems within Digital Modernization",
+          "The incumbent plans, leads, coordinates, and participates in the design, development, quality assurance, installation, testing, and maintenance of assigned software/hardware systems to achieve project objectives and minimize the real-time operational impact of changes on current and developing application systems",
+          "The Developer ensures that established system functionality, reliability, performance and availability are maintained throughout the system development cycle, from initial inception through implementation and routine monitoring",
+          "The incumbent serves as functional area task leader and may serveas project leaderon complex systemsor technical task forces by planning, assigning, scheduling",
+          "They may monitor contractor performance for effectiveness in meeting objectives and solving problems, as well as coordinating projects within Digital Modernization",
+          "The Developer is responsible for one or more application projects to include identification and resolution of technical problems",
+          "The incumbent has considerable latitude for independent technical and professional judgment within approved plans and established guidelines",
+          "Provides technical leadership and/or specialized technical assistance in problem-solving and application systems development",
+          "Provides expert assistance in assigned criticalsystems areas withinthe department",
+          "Develops, enhances and maintains applications and integrations within",
+          "Digital Modernization's portfolio",
+          "Prepares concise reportssuitable for all levels of management regarding projects and technical issues within assigned areas of responsibility",
+          "Performs assignments using a full complement of software engineering skills such as requirements specification, system design,software development, qualityassurance, documentation, and testing",
+          "Functions as project engineer for system configuration management plan, with assigned responsibilityand is designated as the prime pointof contact",
+          "Responsible for the maintenance and execution of project configuration version control when making changes to existing application software or designing new software",
+          "Is responsible for being on call during\"off\" hours and must respondto emergency outageseither via telephone, email, or in person and assists on-site staff until normal operations are resumed",
+          "Provides technical leadership and/or specialized technicalassistance in problemsolving and application systems development",
+          "Is responsible for a high level of operational performance and software reliability within major application systems throughout Digital Modernization",
+          "Develops, reviews and updates varioussystems or softwareas required, in compliance with WMATA Standards and Criteria and Standard Specifications with industry standards, best industry practices, and current or future WMATA practices",
+          "Develops and reviewsother department technical specifications and task orders for procurement of hardware, software, test equipment and services",
+          "Performs failure analysisand prepares reportsincluding root causeand recommended corrective action for stakeholders and management",
+          "Evaluates and provide guidanceon system changesto determine feasibility, alternative solutions, and back out procedures",
+          "Works closely with end usersto understand theirinformation requirements and to directresolution of their problems",
+          "Maintains up-to date supportrequests and projectwork plans",
+          "Preparesstatus reports to compare progress with work plans",
+          "Advises supervisory staff concerning system modifications and applications system deficiencies, end user requirements, and computer hardware,and recommends softwaresupport, work method and practice improvements",
+          "Works variable hours to avoid adverse impact on operations and availability",
+          "Maintains and promotesawareness and accountability with safety policiesand procedures while performing job functions",
+          "Promotes a positive safety culture and encourages reporting of safety consistent with our Agency SafetyPlan, other regulatory requirements within the Safety Management System and just culture principles"
+        ]
+      },
+      "job_onet_soc": "15111100",
+      "job_onet_job_zone": "5"
+    }
+  }
+]

@@ -1,0 +1,80 @@
+python
+java
+javascript
+html
+css
+c++
+c
+sql
+mysql
+php
+flask
+django
+fastapi
+pandas
+numpy
+keras
+opencv
+pyspark
+streamlit
+javafx
+git
+github
+linux
+scikit-learn
+tensorflow
+pytorch
+machine learning
+deep learning
+computer vision
+artificial intelligence
+data structures
+algorithms
+object oriented programming
+database systems
+operating systems
+big data
+neural networks
+logistic regression
+random forest
+gradient boosting
+convolutional neural network
+cnn
+react
+react.js
+next.js
+nextjs
+node.js
+nodejs
+mongodb
+postgresql
+postgres
+tailwind css
+tailwind
+bootstrap
+express
+express.js
+rest api
+api
+socket programming
+tcp/ip
+multithreading
+azure
+aws
+docker
+kubernetes
+agile
+postman
+selenium
+tanstack query
+websocket
+redis
+graphql
+typescript
+angular
+vue
+vue.js
+spring boot
+.net
+asp.net
+jquery

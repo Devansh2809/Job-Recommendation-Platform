@@ -1,0 +1,277 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(4px);
+  z-index: 1000;
+}
+
+.modal-container {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  z-index: 1001;
+  padding: 20px;
+}
+
+.close-btn-mobile {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  z-index: 1002;
+}
+
+.expanded-card {
+  width: 100%;
+  max-width: 800px;
+  max-height: 90vh;
+  background: #111;
+  border: 1px solid #222;
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.expanded-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+
+.expanded-header {
+  padding: 30px;
+  border-bottom: 1px solid #222;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.expanded-info {
+  flex: 1;
+  min-width: 250px;
+}
+
+.expanded-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.expanded-company {
+  font-size: 1.1rem;
+  color: #999;
+  margin-bottom: 6px;
+}
+
+.expanded-location {
+  font-size: 0.95rem;
+  color: #666;
+}
+
+.expanded-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-end;
+}
+
+.expanded-score {
+  padding: 8px 16px;
+  background: #fff;
+  color: #000;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 1rem;
+  white-space: nowrap;
+}
+
+.apply-btn {
+  padding: 12px 24px;
+  background: #22c55e;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.2s;
+  white-space: nowrap;
+}
+
+.apply-btn:hover {
+  background: #16a34a;
+}
+
+.expanded-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 30px;
+}
+
+.expanded-details {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.detail-section h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.detail-section p {
+  color: #999;
+  line-height: 1.7;
+  font-size: 0.95rem;
+}
+
+.detail-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin-top: 12px;
+}
+
+.detail-item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.detail-label {
+  font-size: 0.85rem;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.detail-value {
+  font-size: 0.95rem;
+  color: #fff;
+  font-weight: 500;
+}
+
+.job-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.job-card-compact {
+  background: #111;
+  border: 1px solid #222;
+  border-radius: 12px;
+  padding: 24px;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.job-card-compact:hover {
+  border-color: #333;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 12px;
+  margin-bottom: 4px;
+}
+
+.card-title {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #fff;
+  flex: 1;
+}
+
+.card-score {
+  padding: 4px 10px;
+  background: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: #fff;
+  flex-shrink: 0;
+}
+
+.card-company {
+  color: #999;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.card-location {
+  color: #666;
+  font-size: 0.85rem;
+}
+
+.card-description {
+  color: #999;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-top: 8px;
+}
+
+@media (max-width: 768px) {
+  .expanded-card {
+    max-height: 100vh;
+    border-radius: 0;
+  }
+
+  .expanded-header {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .expanded-actions {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .expanded-body {
+    padding: 20px;
+  }
+
+  .job-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .close-btn-mobile {
+    display: flex;
+  }
+}
+
+@media (min-width: 769px) {
+  .close-btn-mobile {
+    display: none;
+  }
+}
