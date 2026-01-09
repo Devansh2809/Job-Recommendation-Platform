@@ -48,5 +48,5 @@ async def init_db():
             await conn.run_sync(Base.metadata.create_all)
         print("Database initialized")
     except Exception as e:
-        print(f"Database initialization failed: {e}")
-        raise
+        print(f"Database initialization warning: {e}")
+        print("Continuing with existing database schema...")
