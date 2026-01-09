@@ -29,9 +29,6 @@ async def check_cached_jobs(
 ) -> Optional[List[Dict]]:
     """
     Check if jobs for this query are already cached and not expired.
-    
-    Returns:
-        List of cached jobs if found and valid, None otherwise
     """
     query_hash = generate_query_hash(skills, experience_level, location)
     
@@ -77,13 +74,6 @@ async def store_jobs_in_cache(
 ) -> None:
     """
     Store fetched jobs in cache with TTL.
-    
-    Args:
-        jobs: List of job dictionaries from API
-        skills: Skills used in search
-        experience_level: Experience level filter
-        location: Location filter
-        ttl_days: Time to live in days (default 3)
     """
     query_hash = generate_query_hash(skills, experience_level, location)
     expires_at = datetime.utcnow() + timedelta(days=ttl_days)
@@ -107,26 +97,51 @@ async def store_jobs_in_cache(
         )
         db.add(search_query)
     
+    await db.commit()
+    
     for job in jobs:
-        cached_job = CachedJob(
-            id=job['id'],
-            title=job['title'],
-            company=job['company'],
-            location=job.get('location'),
-            description=job.get('description'),
-            requirements=job.get('requirements'),
-            employment_type=job.get('employment_type'),
-            experience_level=job.get('experience_level'),
-            url=job.get('url'),
-            salary_min=job.get('min_salary'),
-            salary_max=job.get('max_salary'),
-            is_remote=job.get('is_remote', False),
-            search_query_hash=query_hash,
-            raw_data=job,
-            expires_at=expires_at
-        )
+        # Check if job already exists
+        stmt = select(CachedJob).where(CachedJob.id == job['id'])
+        result = await db.execute(stmt)
+        existing_job = result.scalar_one_or_none()
         
-        await db.merge(cached_job)
+        if existing_job:
+            # Update existing job
+            existing_job.title = job['title']
+            existing_job.company = job['company']
+            existing_job.location = job.get('location')
+            existing_job.description = job.get('description')
+            existing_job.requirements = job.get('requirements')
+            existing_job.employment_type = job.get('employment_type')
+            existing_job.experience_level = job.get('experience_level')
+            existing_job.url = job.get('url')
+            existing_job.salary_min = job.get('min_salary')
+            existing_job.salary_max = job.get('max_salary')
+            existing_job.is_remote = job.get('is_remote', False)
+            existing_job.search_query_hash = query_hash
+            existing_job.raw_data = job
+            existing_job.expires_at = expires_at
+            existing_job.updated_at = datetime.utcnow()
+        else:
+            # Insert new job
+            cached_job = CachedJob(
+                id=job['id'],
+                title=job['title'],
+                company=job['company'],
+                location=job.get('location'),
+                description=job.get('description'),
+                requirements=job.get('requirements'),
+                employment_type=job.get('employment_type'),
+                experience_level=job.get('experience_level'),
+                url=job.get('url'),
+                salary_min=job.get('min_salary'),
+                salary_max=job.get('max_salary'),
+                is_remote=job.get('is_remote', False),
+                search_query_hash=query_hash,
+                raw_data=job,
+                expires_at=expires_at
+            )
+            db.add(cached_job)
     
     await db.commit()
     print(f"  Stored {len(jobs)} jobs in cache (expires in {ttl_days} days)")
@@ -135,9 +150,6 @@ async def store_jobs_in_cache(
 async def cleanup_expired_jobs(db: AsyncSession) -> int:
     """
     Delete expired jobs from cache.
-    
-    Returns:
-        Number of jobs deleted
     """
     stmt = delete(CachedJob).where(CachedJob.expires_at <= datetime.utcnow())
     result = await db.execute(stmt)
@@ -149,7 +161,7 @@ async def cleanup_expired_jobs(db: AsyncSession) -> int:
     await db.commit()
     
     if jobs_deleted > 0:
-        print(f"🗑️  Cleaned up {jobs_deleted} expired jobs")
+        print(f"  Cleaned up {jobs_deleted} expired jobs")
     
     return jobs_deleted
 
