@@ -20,3 +20,4 @@ frontend/dist/
 .vercel
 .railway
 .DS_Store
+.deployment
