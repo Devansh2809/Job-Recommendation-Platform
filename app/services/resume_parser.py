@@ -86,7 +86,6 @@ def detect_experience_level(text: str, education: List[dict]) -> dict:
             years_experience = int(match.group(1))
             break
     
-    # If student or recent grad, check education for graduation year
     if is_student or years_experience == 0:
         current_year = 2026  # Update as needed
         for edu in education:

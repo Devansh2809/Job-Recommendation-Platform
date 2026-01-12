@@ -107,7 +107,6 @@ class VectorStore:
     def load(self, index_path: Optional[Path] = None, metadata_path: Optional[Path] = None):
         """
         Load index and metadata from disk.
-        
         """
         index_path = index_path or Path(settings.VECTOR_INDEX_PATH + ".index")
         metadata_path = metadata_path or Path(settings.VECTOR_INDEX_PATH + "_metadata.json")

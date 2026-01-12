@@ -21,3 +21,4 @@ frontend/dist/
 .railway
 .DS_Store
 .deployment
+config

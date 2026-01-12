@@ -33,7 +33,7 @@ class Settings(BaseSettings):
     # Caching
     JOB_CACHE_TTL_DAYS: int = 3
     ENABLE_CACHE: bool = True
-    
+    FRONTEND_URL: str = "http://localhost:5173"
     class Config:
         env_file = ".env"
         env_file_encoding = "utf-8"

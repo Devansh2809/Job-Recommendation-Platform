@@ -6,7 +6,6 @@ from spacy.matcher import Matcher
 import re
 from typing import List, Set, Dict
 
-# Load spaCy model
 nlp = spacy.load("en_core_web_sm")
 
 # Comprehensive blacklist of non-skill terms
@@ -19,10 +18,8 @@ NON_SKILL_TERMS = {
     # Days
     'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday',
     'mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun',
-    
-    # Common locations (can be expanded)
-    'karnataka', 'pradesh', 'uttar', 'delhi', 'mumbai', 'bangalore', 'chennai',
-    'manipal', 'lucknow', 'city', 'state', 'country',
+    #Locations
+    'city', 'state', 'country',
     
     # Resume sections
     'experience', 'education', 'projects', 'summary', 'objective',
@@ -85,7 +82,6 @@ def is_date_or_location_fragment(text: str) -> bool:
 def extract_from_explicit_skill_listings(text: str) -> Set[str]:
     """
     Extract skills from explicit skill listing patterns.
-    Handles common resume formats like "Category: skill1, skill2, skill3"
     """ 
     skills = set()
     
@@ -93,8 +89,6 @@ def extract_from_explicit_skill_listings(text: str) -> Set[str]:
     lines = text.split('\n')
     
     for line in lines:
-        # Match pattern: "Something: items, items, items"
-        # Very broad to catch any category with colon followed by comma-separated values
         match = re.match(r'^([^:]+):\s*(.+)$', line.strip())
         
         if match:
@@ -345,7 +339,7 @@ def clean_and_filter_skills(skills: Set[str]) -> List[str]:
         if len(skill) == 1 and skill.lower() not in ['c', 'r']:
             continue
         
-        # Common known skills that should always be included (even if lowercase)
+        # Common known skills that should always be included
         known_skills = {
             'python', 'java', 'javascript', 'c++', 'c#', 'c', 'r', 'html', 'css', 'php', 'sql',
             'ruby', 'go', 'rust', 'swift', 'kotlin', 'scala', 'perl', 'bash', 'shell',
@@ -364,8 +358,6 @@ def clean_and_filter_skills(skills: Set[str]) -> List[str]:
             cleaned.add(skill_lower)
             continue
         
-        # For unknown skills, apply stricter rules
-        # Skip if starts with lowercase (likely a fragment) unless it has special chars
         if skill[0].islower() and '-' not in skill and '/' not in skill and '.' not in skill:
             continue
         
@@ -377,29 +369,14 @@ def clean_and_filter_skills(skills: Set[str]) -> List[str]:
 def extract_skills_dynamic(text: str) -> List[str]:
     """
     Main function for domain-agnostic skill extraction.
-    Balanced approach - extracts skills without being too restrictive.
     """
     all_skills = set()
-    
-    # Strategy 1: Extract from explicit skill listings (most reliable)
     all_skills.update(extract_from_explicit_skill_listings(text))
-    
-    # Strategy 2: Extract proper nouns in skill contexts
     all_skills.update(extract_proper_nouns_in_skill_context(text))
-    
-    # Strategy 3: Extract from action contexts
     all_skills.update(extract_skills_from_action_contexts(text))
-    
-    # Strategy 4: Extract named entities (PRODUCT only)
     all_skills.update(extract_named_entities(text))
-    
-    # Strategy 5: Extract technical acronyms in context
     all_skills.update(extract_technical_acronyms(text))
-    
-    # Strategy 6: Extract CamelCase and special terms
     all_skills.update(extract_camelcase_and_special_terms(text))
-    
-    # Clean and filter
     return clean_and_filter_skills(all_skills)
 
 

@@ -2,7 +2,7 @@ from .heading_detector import is_heading
 
 def split_into_sections(text: str) -> dict:
     sections = {}
-    current_heading = "header"  # Pre-heading content (name, contact, etc.)
+    current_heading = "header"  
     current_content = []
     
     lines = text.split("\n")
@@ -21,7 +21,6 @@ def split_into_sections(text: str) -> dict:
             # Add line to current section
             current_content.append(line)
     
-    # Don't forget the last section
     if current_content:
         sections[current_heading] = "\n".join(current_content).strip()
     

@@ -1,12 +1,6 @@
 import re
 
 def is_heading(line: str) -> bool:
-    """
-    Detect if a line is a section heading using format heuristics.
-    Works regardless of what the heading says.
-    
-    More strict rules to avoid false positives.
-    """
     stripped = line.strip()
     
     if not stripped:

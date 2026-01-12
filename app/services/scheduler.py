@@ -38,6 +38,5 @@ def start_scheduler():
 
 
 def stop_scheduler():
-    """Stop the scheduler"""
     scheduler.shutdown()
     print(" Background scheduler stopped")

@@ -34,13 +34,9 @@ def classify_section(header: str, content: str) -> str:
     """
     Classify a section by analyzing both header and content.
     
-    Returns one of: skills, projects, experience, education, coursework, 
-                    certifications, activities, or 'other'.
     """
     # Combine header and content for analysis
     text = (header + " " + content).lower()
-    
-    # Special case: if header contains "coursework" directly, it's coursework
     if "coursework" in header.lower():
         return "coursework"
     
@@ -51,6 +47,4 @@ def classify_section(header: str, content: str) -> str:
     
     # Get highest scoring type
     best_match = max(scores, key=scores.get)
-    
-    # Return best match only if score > 0, otherwise 'other'
     return best_match if scores[best_match] > 0 else "other"

@@ -37,8 +37,12 @@ app = FastAPI(
 allowed_origins = [
     "http://localhost:3000",
     "http://localhost:5173",
-    os.getenv("FRONTEND_URL", ""),
 ]
+
+# Split comma-separated frontend URLs from environment variable
+frontend_urls = os.getenv("FRONTEND_URL", "")
+if frontend_urls:
+    allowed_origins.extend([url.strip() for url in frontend_urls.split(",")])
 
 allowed_origins = [origin for origin in allowed_origins if origin]
 

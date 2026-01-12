@@ -17,7 +17,7 @@ def extract_text_from_pdf(path: str, use_ocr_fallback: bool = True) -> str:
     text = pdf_extract_text(path)
     
     if use_ocr_fallback and len(text.strip()) < 100:
-        print("Low text content detected, attempting OCR...")
+        print("Low text content detected, attempting OCR")
         try:
             ocr_text = extract_text_from_pdf_with_ocr(path, timeout=60)
             
