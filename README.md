@@ -1,6 +1,6 @@
 # Job Recommendation Platform
 
-A sophisticated AI-powered job recommendation system that leverages natural language processing, vector embeddings, and intelligent caching to match candidates with relevant job opportunities based on their resume analysis.
+A sophisticated NLP-powered job recommendation system that leverages natural language processing, vector embeddings, and intelligent caching to match candidates with relevant job opportunities based on their resume analysis.
 
 ## Table of Contents
 
