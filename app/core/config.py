@@ -15,7 +15,6 @@ class Settings(BaseSettings):
     
     # Database
     DATABASE_URL: str = "postgresql+asyncpg://user:password@localhost/jobplatform"
-    # For SQLite: "sqlite+aiosqlite:///./data/jobs.db"
     DEBUG: bool = False
     
     # Embedding Model

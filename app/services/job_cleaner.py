@@ -1,6 +1,5 @@
 """
 Job text cleaning and normalization for embeddings.
-Converts job postings into clean, embedding-friendly text.
 """
 import re
 from typing import Dict
@@ -8,7 +7,6 @@ from bs4 import BeautifulSoup
 
 
 class JobCleaner:
-    """Clean and normalize job postings for embedding generation"""
     
     @staticmethod
     def clean_html(text: str) -> str:
@@ -37,7 +35,6 @@ class JobCleaner:
     @staticmethod
     def remove_special_chars(text: str) -> str:
         """Remove special characters but keep important punctuation"""
-        # Keep: letters, numbers, spaces, periods, commas, hyphens
         text = re.sub(r'[^a-zA-Z0-9\s.,\-+#/]', ' ', text)
         text = re.sub(r'\s+', ' ', text)
         return text.strip()
@@ -45,8 +42,6 @@ class JobCleaner:
     def classify_job_level(job: Dict) -> str:
         """
         Classify job experience level from title and description.
-        
-        Returns: "student", "entry", "mid", "senior", "lead"
         """
         title = job.get('title', '').lower()
         description = job.get('description', '').lower()
@@ -78,16 +73,10 @@ class JobCleaner:
     def create_embedding_text(job: Dict) -> str:
         """
         Create clean, structured text for embedding generation.
-        
-        Args:
-            job: Normalized job dictionary
-        
-        Returns:
-            Clean text suitable for embedding
         """
         parts = []
         
-        # Title (most important)
+        # Title 
         if job.get("title"):
             parts.append(f"Job Title: {job['title']}")
         
@@ -107,7 +96,7 @@ class JobCleaner:
         if job.get("description"):
             clean_desc = JobCleaner.clean_html(job["description"])
             clean_desc = JobCleaner.normalize_whitespace(clean_desc)
-            # Limit description length for embedding (keep first 1000 chars)
+            # Limit description length for embedding 
             if len(clean_desc) > 1000:
                 clean_desc = clean_desc[:1000] + "..."
             parts.append(f"Description: {clean_desc}")
@@ -127,9 +116,6 @@ class JobCleaner:
     def extract_keywords(job: Dict) -> list:
         """
         Extract important keywords from job for later filtering/ranking.
-        
-        Returns:
-            List of keywords
         """
         text = job.get("description", "") + " " + job.get("requirements", "")
         text = JobCleaner.clean_html(text).lower()

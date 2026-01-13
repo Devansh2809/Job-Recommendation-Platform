@@ -33,7 +33,6 @@ SECTION_KEYWORDS = {
 def classify_section(header: str, content: str) -> str:
     """
     Classify a section by analyzing both header and content.
-    
     """
     # Combine header and content for analysis
     text = (header + " " + content).lower()

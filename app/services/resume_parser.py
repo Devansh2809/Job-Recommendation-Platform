@@ -25,7 +25,7 @@ def extract_contact_info(text: str) -> dict:
     
     # Find phone numbers
     phone_matches = re.findall(PHONE_REGEX, cleaned_text)
-    # Filter out invalid matches (like just "(132)" or numbers with letters)
+    # Filter out invalid matches 
     valid_phones = []
     for phone in phone_matches:
         # Remove all non-digits to count
@@ -52,7 +52,6 @@ def detect_experience_level(text: str, education: List[dict]) -> dict:
     """
     text_lower = text.lower()
     
-    # Check for student indicators
     student_indicators = [
         r'\bcurrent(ly)?\s+(?:studying|pursuing|enrolled)',
         r'\b(?:undergraduate|bachelor|btech|b\.tech)\s+student',
@@ -87,7 +86,7 @@ def detect_experience_level(text: str, education: List[dict]) -> dict:
             break
     
     if is_student or years_experience == 0:
-        current_year = 2026  # Update as needed
+        current_year = 2026  
         for edu in education:
             # Look for expected graduation or recent graduation
             degree_text = edu.get('degree', '') + ' ' + edu.get('details', '')
@@ -98,7 +97,6 @@ def detect_experience_level(text: str, education: List[dict]) -> dict:
                     is_student = True
                     seeking_internship = seeking_internship or (grad_year > current_year)
     
-    # Determine level
     if is_student or seeking_internship:
         level = "student"
     elif years_experience == 0:
@@ -130,7 +128,7 @@ def parse_resume(text: str) -> dict:
     parsed = {
         **contact,
         "skills": [],
-        "skills_with_context": {},  # NEW: Skills with where they appeared
+        "skills_with_context": {},  
         "projects": [],
         "education": [],
         "coursework": [],
@@ -146,7 +144,7 @@ def parse_resume(text: str) -> dict:
     for header, content in sections.items():
         section_type = classify_section(header, content)
         
-        # Store raw section for debugging (truncated)
+        # Store raw section for debugging 
         parsed["raw_sections"][header] = {
             "type": section_type,
             "content_preview": content[:150] + "..." if len(content) > 150 else content

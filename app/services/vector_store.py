@@ -8,7 +8,6 @@ from app.core.config import settings
 
 class VectorStore:
     """FAISS-based vector store for job embeddings"""
-    
     def __init__(self, dimension: int = 384):
         self.dimension = dimension
         self.index = None

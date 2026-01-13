@@ -46,9 +46,9 @@ def extract_projects_from_section(content: str) -> List[Dict[str, str]]:
         is_tech_stack_implicit = (
             not is_bullet and
             ',' in stripped and
-            len(stripped) < 150 and  # Reasonable tech stack length
+            len(stripped) < 150 and  
             len(stripped.split(',')) >= 2 and
-            not stripped.endswith('.')  # Tech stacks don't end with periods
+            not stripped.endswith('.')  
         )
         looks_like_title = (
             not is_bullet and
@@ -82,14 +82,13 @@ def extract_projects_from_section(content: str) -> List[Dict[str, str]]:
             seen_tech_stack = True
         
         elif is_bullet and current_project:
-            # Bullet point - add to description
             desc_line = re.sub(r'^[•◦\-\*]\s*', '', stripped)
             if current_project["description"]:
                 current_project["description"] += " "
             current_project["description"] += desc_line
         
         elif current_project and current_project.get("description"):
-            # Continuation of previous bullet (wrapped line)
+            # Continuation of previous bullet 
             current_project["description"] += " " + stripped
     
     # Save last project
@@ -166,7 +165,7 @@ def extract_education_from_section(content: str) -> List[Dict[str, str]]:
             current_entry["details"] += stripped
         
         elif current_entry:
-            # Additional info - add to details
+            # Additional info 
             if current_entry["details"]:
                 current_entry["details"] += " "
             current_entry["details"] += stripped
@@ -182,10 +181,8 @@ def extract_coursework(content: str) -> List[str]:
     
     courses = []
     
-    # Check if content has "Relevant Coursework:" prefix
     content = re.sub(r'^Relevant Coursework:\s*', '', content, flags=re.IGNORECASE)
     
-    # If content has commas, it's likely comma-separated
     if ',' in content:
         # Split by commas
         parts = content.split(',')
@@ -212,7 +209,7 @@ def extract_coursework(content: str) -> List[str]:
             if not cleaned:
                 continue
             
-            # If line has multiple courses separated by tabs/spaces (multi-column layout)
+            # If line has multiple courses separated by tabs/spaces 
             if '\t' in cleaned or '  ' in cleaned:
                 parts = re.split(r'\t+|\s{2,}', cleaned)
                 for part in parts:

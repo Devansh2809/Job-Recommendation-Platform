@@ -8,7 +8,6 @@ from typing import List, Set, Dict
 
 nlp = spacy.load("en_core_web_sm")
 
-# Comprehensive blacklist of non-skill terms
 NON_SKILL_TERMS = {
     # Months
     'january', 'february', 'march', 'april', 'may', 'june', 'july',
@@ -68,11 +67,10 @@ def is_date_or_location_fragment(text: str) -> bool:
         return True
     
     # Location patterns (contains location indicators)
-    location_indicators = ['pradesh', 'karnataka', 'city', 'district', 'state']
+    location_indicators = ['city', 'district', 'state']
     if any(ind in text_lower for ind in location_indicators):
         return True
-    
-    # Specific location patterns like "Aug 2023" or "Karnataka Aug"
+
     if re.match(r'^[a-z]+\s+(aug|sep|oct|nov|dec|jan|feb|mar|apr|may|jun|jul)\.?$', text_lower):
         return True
     
@@ -220,7 +218,7 @@ def extract_named_entities(text: str) -> Set[str]:
     skills = set()
     
     for ent in doc.ents:
-        # Only PRODUCT entities (tools, software, equipment)
+        # Only PRODUCT entities 
         if ent.label_ == "PRODUCT":
             ent_text = ent.text.strip()
             ent_lower = ent_text.lower()
@@ -249,8 +247,6 @@ def extract_technical_acronyms(text: str) -> Set[str]:
     Extract all-caps acronyms that are likely skills.
     """
     skills = set()
-    
-    # Find all caps words (2-8 characters to catch things like SQL, API, FAISS, OpenCV)
     acronyms = re.findall(r'\b[A-Z]{2,8}\b', text)
     
     for acronym in acronyms:
@@ -319,7 +315,7 @@ def clean_and_filter_skills(skills: Set[str]) -> List[str]:
         if is_date_or_location_fragment(skill):
             continue
         
-        # Skip if contains problematic special characters (but allow +, #, -, /, .)
+        # Skip if contains problematic special characters 
         if re.search(r'[§•()\[\]{}@$%^&*]', skill):
             continue
         
