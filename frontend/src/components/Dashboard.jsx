@@ -11,6 +11,7 @@ import { apiCall } from '../config/api';
 export default function Dashboard({ user, onLogout }) {
   const [file, setFile] = useState(null);
   const [loading, setLoading] = useState(false);
+  const [loadingStep, setLoadingStep] = useState('');
   const [error, setError] = useState(null);
   const [profile, setProfile] = useState(null);
   const [results, setResults] = useState(null);
@@ -38,73 +39,77 @@ export default function Dashboard({ user, onLogout }) {
   };
 
   const handleUpload = async () => {
-    if (!file) {
-      setError('Please select a file first');
-      return;
-    }
+  if (!file) {
+    setError('Please select a file first');
+    return;
+  }
 
-    setLoading(true);
-    setError(null);
+  setLoading(true);
+  setError(null);
 
-    const formData = new FormData();
-    formData.append('file', file);
+  const formData = new FormData();
+  formData.append('file', file);
 
-    try {
-      // Step 1: Parse resume
-      const parseData = await apiCall('/resume/quick-parse', {
-        method: 'POST',
-        body: formData,
-      });
-      console.log('Step 1 - Resume parsed:', parseData);
+  try {
+    // Step 1: Parse resume
+    setLoadingStep('Parsing your resume...');
+    const parseData = await apiCall('/resume/quick-parse', {
+      method: 'POST',
+      body: formData,
+    });
+    console.log('Step 1 - Resume parsed:', parseData);
 
-      // Step 2: Save profile
-      const saveData = await apiCall('/resume/save-profile', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          user_id: user.uid,
-          parsed_resume: parseData.resume
-        }),
-      });
-      console.log('Step 2 - Profile saved:', saveData);
-      setProfile(saveData.profile);
+    // Step 2: Save profile
+    setLoadingStep('Saving your profile...');
+    const saveData = await apiCall('/resume/save-profile', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        user_id: user.uid,
+        parsed_resume: parseData.resume
+      }),
+    });
+    console.log('Step 2 - Profile saved:', saveData);
+    setProfile(saveData.profile);
 
-      // Step 3: Fetch jobs
-      const jobsData = await apiCall('/resume/fetch-jobs?top_k=10', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(parseData.resume),
-      });
-      console.log('Step 3 - Jobs fetched:', jobsData);
+    // Step 3: Fetch jobs
+    setLoadingStep('Finding matching jobs...');
+    const jobsData = await apiCall('/resume/fetch-jobs?top_k=10', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(parseData.resume),
+    });
+    console.log('Step 3 - Jobs fetched:', jobsData);
 
-      // Step 4: Format and display results
-      const formattedData = {
-        resume: parseData.resume || {},
-        matches: (jobsData.recommendations || []).map(job => ({
-          job: {
-            id: job.id || `${job.company}-${job.title}`.replace(/\s/g, '-'),
-            title: job.title,
-            company: job.company,
-            location: job.location,
-            description: job.description,
-            employment_type: job.employment_type,
-            experience_level: job.experience_level,
-            requirements: job.requirements,
-            url: job.url,
-          },
-          score: job.match_score || 0
-        }))
-      };
+    // Step 4: Format and display results
+    const formattedData = {
+      resume: parseData.resume || {},
+      matches: (jobsData.recommendations || []).map(job => ({
+        job: {
+          id: job.id || `${job.company}-${job.title}`.replace(/\s/g, '-'),
+          title: job.title,
+          company: job.company,
+          location: job.location,
+          description: job.description,
+          employment_type: job.employment_type,
+          experience_level: job.experience_level,
+          requirements: job.requirements,
+          url: job.url,
+        },
+        score: job.match_score || 0
+      }))
+    };
 
-      setResults(formattedData);
-      setFile(null);
-    } catch (err) {
-      console.error('Upload error:', err);
-      setError(err.message);
-    } finally {
-      setLoading(false);
-    }
-  };
+    setResults(formattedData);
+    setFile(null);
+  } catch (err) {
+    console.error('Upload error:', err);
+    setError(err.message);
+  } finally {
+    setLoading(false);
+    setLoadingStep('');
+  }
+};
 
   const handleLogoutClick = async () => {
     await signOut(auth);
@@ -153,39 +158,48 @@ export default function Dashboard({ user, onLogout }) {
           <h3>Upload Your Resume</h3>
           <p>PDF, DOCX, or Image format supported</p>
           
-          <div className="upload-area" onClick={() => document.getElementById('file-input').click()}>
-            <input 
-              id="file-input"
-              type="file" 
-              accept=".pdf,.docx,.jpg,.jpeg,.png"
-              onChange={handleFileChange} 
-              style={{ display: 'none' }}
-            />
-            {!file ? (
-              <>
-                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                  <polyline points="17 8 12 3 7 8"></polyline>
-                  <line x1="12" y1="3" x2="12" y2="15"></line>
-                </svg>
-                <p className="upload-text">Click to upload</p>
-                <p className="upload-hint">or drag and drop your resume here</p>
-              </>
-            ) : (
-              <>
-                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path>
-                  <polyline points="13 2 13 9 20 9"></polyline>
-                </svg>
-                <p className="upload-text">{file.name}</p>
-                <p className="upload-hint">Click to change file</p>
-              </>
-            )}
-          </div>
+          <div className="upload-area" onClick={() => !loading && document.getElementById('file-input').click()}>
+    <input 
+      id="file-input"
+      type="file" 
+      accept=".pdf,.docx,.jpg,.jpeg,.png"
+      onChange={handleFileChange} 
+      style={{ display: 'none' }}
+      disabled={loading}
+    />
+    {loading ? (
+      <div className="loader-container">
+        <div className="loader"></div>
+        <div className="loading-message">
+          <div>{loadingStep}</div>
+          <div className="loading-step">Please wait, this may take a moment...</div>
+        </div>
+      </div>
+    ) : !file ? (
+      <>
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+          <polyline points="17 8 12 3 7 8"></polyline>
+          <line x1="12" y1="3" x2="12" y2="15"></line>
+        </svg>
+        <p className="upload-text">Click to upload</p>
+        <p className="upload-hint">or drag and drop your resume here</p>
+      </>
+    ) : (
+      <>
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path>
+          <polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+        <p className="upload-text">{file.name}</p>
+        <p className="upload-hint">Click to change file</p>
+      </>
+    )}
+  </div>
 
-          <button onClick={handleUpload} disabled={!file || loading} className="upload-btn">
-            {loading ? 'Processing...' : 'Upload & Match Jobs'}
-          </button>
+  <button onClick={handleUpload} disabled={!file || loading} className="upload-btn">
+    {loading ? 'Processing...' : 'Upload & Match Jobs'}
+  </button>
 
           {error && <div className="error">{error}</div>}
         </motion.div>

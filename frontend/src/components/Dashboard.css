@@ -515,3 +515,62 @@
   padding: 40px 20px;
   width: 100%;
 }
+/* Loading Animation */
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 40px;
+  gap: 20px;
+}
+
+.loader {
+  height: 60px;
+  aspect-ratio: 1;
+  --c: no-repeat linear-gradient(#fff 0 0);
+  background: var(--c), var(--c), var(--c), var(--c);
+  background-size: 33.4% 33.4%;
+  animation: l7 1.5s infinite linear;
+}
+
+@keyframes l7 {
+  0%, 5% {
+    background-position: 0 0, 50% 0, 0 50%, 50% 50%;
+  }
+  25% {
+    background-position: 0 0, 100% 0, 0 100%, 50% 50%;
+  }
+  50% {
+    background-position: 50% 0, 100% 0, 0 100%, 0 50%;
+  }
+  75% {
+    background-position: 50% 0, 100% 50%, 0 100%, 0 0;
+  }
+  95%, 100% {
+    background-position: 50% 0, 50% 50%, 0 50%, 0 0;
+  }
+}
+
+.loading-message {
+  color: #999;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.loading-step {
+  color: #667eea;
+  font-weight: 500;
+  margin-top: 8px;
+  font-size: 0.9rem;
+}
+
+/* Ensure profile button stays interactive during loading */
+.nav {
+  pointer-events: auto;
+  z-index: 200;
+}
+
+.profile-btn {
+  pointer-events: auto;
+}
